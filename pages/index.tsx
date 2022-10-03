@@ -31,7 +31,7 @@ const Home: NextPage = () => {
       </Head>
       <Styled.Header>
         <Styled.HeaderContent>
-          <Image src="/images/logo.png" alt="logo" width="100" height="100" />
+          <Image src="/images/logo.png" alt="logo" width="75" height="75" />
         </Styled.HeaderContent>
       </Styled.Header>
       <Styled.Navbar>

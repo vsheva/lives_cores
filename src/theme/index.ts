@@ -30,6 +30,9 @@ const theme = createTheme({
           ".MuiTabs-flexContainer": {
             gap: 24,
           },
+          ".MuiTabs-indicator": {
+            height: 3.5,
+          },
         },
       },
     },
