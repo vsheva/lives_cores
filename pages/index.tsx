@@ -1,12 +1,27 @@
 import type { NextPage } from "next";
+import {
+  SportsSoccer,
+  SportsBasketball,
+  SportsTennis,
+  SportsHockey,
+  SportsVolleyball,
+  SportsHandball,
+} from "@mui/icons-material";
+import { useRouter } from "next/router";
 import Image from "next/image";
 import Head from "next/head";
-import SportsSoccerIcon from "@mui/icons-material/SportsSoccer";
 
 import * as Styled from "./index.styled";
-import { Tab, Tabs } from "@mui/material";
+
+const ACTIVE_TABS = {
+  football: "/",
+  basketball: "/basketball",
+  tenis: "/tennis",
+};
 
 const Home: NextPage = () => {
+  const { asPath } = useRouter();
+
   return (
     <>
       <Head>
@@ -15,17 +30,45 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Styled.Header>
-        <Image src="/images/logo.png" alt="logo" width="100" height="100" />
+        <Styled.HeaderContent>
+          <Image src="/images/logo.png" alt="logo" width="100" height="100" />
+        </Styled.HeaderContent>
       </Styled.Header>
       <Styled.Navbar>
-        <Styled.NavTabs
-        //value={value}
-        //onChange={handleChange}
-        >
-          <Tab value="one" label="Item One" />
-          <Tab value="two" label="Item Two" />
-          <Tab value="three" label="Item Three" />
-        </Styled.NavTabs>
+        <Styled.NavbarContent>
+          <Styled.NavTabs value={asPath}>
+            <Styled.NavTab
+              icon={<SportsSoccer />}
+              value={ACTIVE_TABS.football}
+              label="Футбол"
+            />
+            <Styled.NavTab
+              icon={<SportsBasketball />}
+              value={ACTIVE_TABS.basketball}
+              label="Баскетбол"
+            />
+            <Styled.NavTab
+              icon={<SportsTennis />}
+              value={ACTIVE_TABS.tenis}
+              label="Теніс"
+            />
+            <Styled.NavTab
+              icon={<SportsHockey />}
+              value={ACTIVE_TABS.tenis}
+              label="Хокей"
+            />
+            <Styled.NavTab
+              icon={<SportsVolleyball />}
+              value={ACTIVE_TABS.tenis}
+              label="Волейбол"
+            />
+            <Styled.NavTab
+              icon={<SportsHandball />}
+              value={ACTIVE_TABS.tenis}
+              label="Волейбол"
+            />
+          </Styled.NavTabs>
+        </Styled.NavbarContent>
       </Styled.Navbar>
     </>
   );

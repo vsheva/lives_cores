@@ -1,13 +1,15 @@
 import { createTheme } from "@mui/material/styles";
-import { red, grey, common } from "@mui/material/colors";
+import { grey, common } from "@mui/material/colors";
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: red.A400,
+      main: "#ff0046",
+      contrastText: common.white,
     },
     secondary: {
       main: grey.A200,
+      contrastText: "#00141e",
     },
     background: {
       default: "#001E28",
@@ -15,7 +17,30 @@ const theme = createTheme({
     },
     text: {
       primary: common.white,
-      secondary: common.black,
+      secondary: "#00141e",
+      disabled: "#c8cdcd",
+    },
+  },
+  components: {
+    MuiTabs: {
+      styleOverrides: {
+        root: {
+          minHeight: 0,
+          height: 42,
+          ".MuiTabs-flexContainer": {
+            gap: 24,
+          },
+        },
+      },
+    },
+    MuiTab: {
+      styleOverrides: {
+        root: {
+          padding: 2,
+          minHeight: 42,
+          height: 42,
+        },
+      },
     },
   },
 });
