@@ -1,9 +1,10 @@
 import * as React from "react";
 import type { AppProps } from "next/app";
-import { CacheProvider, EmotionCache } from "@emotion/react";
-import { ThemeProvider, CssBaseline } from "@mui/material";
+import { EmotionCache } from "@emotion/react";
+import { CssBaseline } from "@mui/material";
 
 import createEmotionCache from "@theme/createEmotionCache";
+import ThemeProvider from "@theme/ThemeProvider";
 import theme from "@theme";
 interface MyAppProps extends AppProps {
   emotionCache?: EmotionCache;
@@ -15,12 +16,10 @@ const MyApp: React.FunctionComponent<MyAppProps> = (props) => {
   const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
 
   return (
-    <CacheProvider value={emotionCache}>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Component {...pageProps} />
-      </ThemeProvider>
-    </CacheProvider>
+    <ThemeProvider theme={theme} emotionCache={emotionCache}>
+      <CssBaseline />
+      <Component {...pageProps} />
+    </ThemeProvider>
   );
 };
 
