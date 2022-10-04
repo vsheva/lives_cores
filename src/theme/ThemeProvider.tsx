@@ -3,6 +3,7 @@ import type { Theme } from "@mui/material";
 import { ThemeProvider as StyledComponentProvider } from "styled-components";
 import { ThemeProvider as MuiThemeProvider } from "@mui/material";
 import { CacheProvider, EmotionCache } from "@emotion/react";
+
 import GlobalStyle from "./GlobalStyle";
 
 type ThemeProviderProps = {

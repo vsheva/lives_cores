@@ -10,8 +10,10 @@ import {
 import { Divider } from "@mui/material";
 import { useRouter } from "next/router";
 
+import type SportEvent from "@entities/SportEvent";
 import * as Styled from "@components/MainPage/MainPage.styled";
-import CountryAccordion from "@components/CountryAccordion";
+import SportEventAccordion from "@components/Accordions/SportEventAccordion";
+import CountryAccordion from "@components/Accordions/CountryAccordion";
 import FilterButton from "@components/Buttons/FilterButton";
 import Logo from "public/images/logo.svg";
 
@@ -47,6 +49,69 @@ const MOCK_COUNTRIES = [
   "Ботсвана",
   "Острів Буве",
   "Бразилія",
+];
+
+const MOCK_SPORT_EVENTS: SportEvent[] = [
+  {
+    id: 1,
+    title: "Регіональна ліга - Центр",
+    country: "Австрія",
+    isFavorite: false,
+  },
+  {
+    id: 2,
+    title: "Регіональна ліга - Захід - Тіроль",
+    country: "Австрія",
+    isFavorite: false,
+  },
+  {
+    id: 3,
+    title: "Перший дивізіон",
+    country: "Азербайджан",
+    isFavorite: false,
+  },
+  {
+    id: 4,
+    title: "Чемпіоншип",
+    country: "Англія",
+    isFavorite: false,
+  },
+  {
+    id: 5,
+    title: "Перша ліга",
+    country: "Англія",
+    isFavorite: false,
+  },
+  {
+    id: 6,
+    title: "Друга ліга",
+    country: "Англія",
+    isFavorite: false,
+  },
+  {
+    id: 7,
+    title: "Національна Ліга",
+    country: "Англія",
+    isFavorite: false,
+  },
+  {
+    id: 8,
+    title: "ПчПЛ Прем'єр-дивізіон",
+    country: "Англія",
+    isFavorite: false,
+  },
+  {
+    id: 9,
+    title: "Південна ліга - Центральний дивізіон",
+    country: "Англія",
+    isFavorite: false,
+  },
+  {
+    id: 10,
+    title: "Південна ліга - Південний дивізіон",
+    country: "Англія",
+    isFavorite: false,
+  },
 ];
 
 const ACTIVE_TABS = {
@@ -133,6 +198,13 @@ const Home: NextPage = () => {
               <FilterButton>Коефіцієнти</FilterButton>
               <FilterButton>Заплановані</FilterButton>
             </Styled.FiltersGroup>
+            {MOCK_SPORT_EVENTS.map((sportEvent) => (
+              <SportEventAccordion key={sportEvent.id} sportEvent={sportEvent}>
+                <div>1 Матч</div>
+                <div>2 Матч</div>
+                <div>3 Матч</div>
+              </SportEventAccordion>
+            ))}
           </Styled.Paper>
         </Styled.LivetableSection>
       </Styled.MainSection>
