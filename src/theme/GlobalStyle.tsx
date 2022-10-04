@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle<ThemeProps<Theme>>`
   }
 
   body {
-    background: ${(props) => props.theme.palette.background.paper};
+    background: ${(props) => props.theme.palette.background.default};
   }
 
   button, input, optgroup, select, textarea {
