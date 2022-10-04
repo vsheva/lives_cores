@@ -1,4 +1,12 @@
-import { Box, Button, Container, Tab, Tabs, Grid } from "@mui/material";
+import {
+  Box,
+  Button,
+  Container,
+  Tab,
+  Tabs,
+  Grid,
+  Typography,
+} from "@mui/material";
 import { Search, Person, Menu } from "@mui/icons-material";
 import styled from "styled-components";
 
@@ -80,7 +88,9 @@ export const MainSection = styled((props) => (
   <Container component="main">
     <Grid container spacing={2} {...props} />
   </Container>
-))``;
+))`
+  margin-top: 0;
+`;
 
 export const CountriesSection = styled((props) => (
   <Grid item xs={2} {...props} />
@@ -89,3 +99,10 @@ export const CountriesSection = styled((props) => (
 export const LivetableSection = styled((props) => (
   <Grid item xs={8} {...props} />
 ))``;
+
+export const CountriesTitle = styled((props) => (
+  <Typography variant="overline" {...props} />
+))`
+  font-size: 0.9rem;
+  font-weight: 600;
+`;

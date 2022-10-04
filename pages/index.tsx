@@ -11,6 +11,7 @@ import { useRouter } from "next/router";
 
 import Logo from "public/images/logo.svg";
 import * as Styled from "./index.styled";
+import { Divider } from "@mui/material";
 
 const ACTIVE_TABS = {
   football: "/",
@@ -74,11 +75,10 @@ const Home: NextPage = () => {
       </Styled.Navbar>
       <Styled.MainSection>
         <Styled.CountriesSection>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-          voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-          fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
-          accusantium nemo autem.
+          <Styled.CountriesTitle>
+            Країни
+            <Divider />
+          </Styled.CountriesTitle>
         </Styled.CountriesSection>
         <Styled.LivetableSection>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime

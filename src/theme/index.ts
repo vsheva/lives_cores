@@ -33,7 +33,7 @@ const theme = createTheme({
             gap: 24,
           },
           ".MuiTabs-indicator": {
-            height: 5,
+            height: 4,
           },
         },
       },
