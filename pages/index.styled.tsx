@@ -105,4 +105,9 @@ export const CountriesTitle = styled((props) => (
 ))`
   font-size: 0.9rem;
   font-weight: 600;
+  margin-left: ${({ theme }) => theme.spacing(1)};
+
+  .MuiDivider-root {
+    margin: ${({ theme }) => theme.spacing(0, 0, 2, 1)};
+  }
 `;

@@ -7,11 +7,12 @@ import {
   SportsVolleyball,
   SportsHandball,
 } from "@mui/icons-material";
+import { Divider } from "@mui/material";
 import { useRouter } from "next/router";
 
+import CountryAccordion from "@components/CountryAccordion";
 import Logo from "public/images/logo.svg";
 import * as Styled from "./index.styled";
-import { Divider } from "@mui/material";
 
 const ACTIVE_TABS = {
   football: "/",
@@ -79,6 +80,11 @@ const Home: NextPage = () => {
             Країни
             <Divider />
           </Styled.CountriesTitle>
+          <CountryAccordion country="Україна">
+            <span>1 Лига</span>
+            <span>2 Лига</span>
+            <span>3 Лига</span>
+          </CountryAccordion>
         </Styled.CountriesSection>
         <Styled.LivetableSection>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime

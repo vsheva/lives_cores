@@ -47,6 +47,30 @@ const theme = createTheme({
         },
       },
     },
+    MuiAccordion: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#eee",
+          boxShadow: "none",
+          border: 0,
+          "&:hover": {
+            backgroundColor: "rgba(200, 205, 205, .3)",
+          },
+        },
+      },
+      defaultProps: { disableGutters: true },
+    },
+    MuiAccordionSummary: {
+      styleOverrides: {
+        root: {
+          padding: "0 8px",
+          minHeight: 28,
+          ".MuiAccordionSummary-content": {
+            margin: 0,
+          },
+        },
+      },
+    },
   },
 });
 export default theme;
