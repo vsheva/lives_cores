@@ -46,6 +46,10 @@ const HeaderButton = styled(Button)`
   color: ${({ theme }) => theme.palette.secondary.contrastText};
   min-width: auto;
   padding: ${({ theme }) => theme.spacing(1, 1.5)};
+
+  &:hover {
+    background-color: ${({ theme }) => theme.palette.secondary.dark};
+  }
 `;
 
 const HeaderIconButton = styled(HeaderButton)`
