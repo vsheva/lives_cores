@@ -10,9 +10,9 @@ import {
 import { Divider } from "@mui/material";
 import { useRouter } from "next/router";
 
+import * as Styled from "@components/MainPage/MainPage.styled";
 import CountryAccordion from "@components/CountryAccordion";
 import Logo from "public/images/logo.svg";
-import * as Styled from "./index.styled";
 
 const MOCK_COUNTRIES = [
   "Афганістан",
