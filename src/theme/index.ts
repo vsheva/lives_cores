@@ -95,6 +95,7 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           padding: 16,
+          borderRadius: 8,
         },
       },
       defaultProps: { elevation: 0 },
