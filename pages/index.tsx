@@ -8,10 +8,9 @@ import {
   SportsHandball,
 } from "@mui/icons-material";
 import { useRouter } from "next/router";
-import Image from "next/image";
 import Head from "next/head";
-import Logo from "public/images/logo.svg";
 
+import Logo from "public/images/logo.svg";
 import * as Styled from "./index.styled";
 
 const ACTIVE_TABS = {
