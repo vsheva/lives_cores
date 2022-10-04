@@ -14,6 +14,40 @@ import CountryAccordion from "@components/CountryAccordion";
 import Logo from "public/images/logo.svg";
 import * as Styled from "./index.styled";
 
+const MOCK_COUNTRIES = [
+  "Афганістан",
+  "Албанія",
+  "Алжир",
+  "Американське Самоа",
+  "Андорра",
+  "Ангола",
+  "Ангілья",
+  "Антарктида",
+  "Антигуа і Барбуда",
+  "Аргентина",
+  "Вірменія",
+  "Аруба",
+  "Австралія",
+  "Австрія",
+  "Азербайджан",
+  "Багамські острови (the)",
+  "Бахрейн",
+  "Бангладеш",
+  "Барбадос",
+  "Білорусь",
+  "Бельгія",
+  "Беліз",
+  "Бенін",
+  "Бермудські острови",
+  "Бутан",
+  "Болівія (Багатонаціональна Держава)",
+  "Бонайре, Сінт-Естатіус і Саба",
+  "Боснія і Герцеговина",
+  "Ботсвана",
+  "Острів Буве",
+  "Бразилія",
+];
+
 const ACTIVE_TABS = {
   football: "/",
   basketball: "/basketball",
@@ -80,11 +114,15 @@ const Home: NextPage = () => {
             Країни
             <Divider />
           </Styled.CountriesTitle>
-          <CountryAccordion country="Україна">
-            <span>1 Лига</span>
-            <span>2 Лига</span>
-            <span>3 Лига</span>
-          </CountryAccordion>
+          <Styled.CountriesList>
+            {MOCK_COUNTRIES.map((country) => (
+              <CountryAccordion key={country} country={country}>
+                <div>1 Лига</div>
+                <div>2 Лига</div>
+                <div>3 Лига</div>
+              </CountryAccordion>
+            ))}
+          </Styled.CountriesList>
         </Styled.CountriesSection>
         <Styled.LivetableSection>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime

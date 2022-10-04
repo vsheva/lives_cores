@@ -11,15 +11,18 @@ export const AccordionSummary = styled((props) => (
   padding-right: ${({ theme }) => theme.spacing(0.5)};
 
   .MuiAccordionSummary-content {
+    white-space: nowrap;
+    overflow: hidden;
     margin: ${({ theme }) => theme.spacing(0)};
   }
 
   .MuiAccordionSummary-expandIconWrapper {
-    display: none;
+    opacity: 0;
+    transition: opacity 0.1s;
   }
 
   &:hover .MuiAccordionSummary-expandIconWrapper {
-    display: inherit;
+    opacity: 1;
   }
 `;
 
@@ -28,4 +31,6 @@ export const CountryTitle = styled((props) => (
 ))`
   text-transform: none;
   font-size: 0.9rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
 `;

@@ -53,6 +53,9 @@ const theme = createTheme({
           backgroundColor: "#eee",
           boxShadow: "none",
           border: 0,
+          "&:before": {
+            display: "none",
+          },
         },
       },
       defaultProps: { disableGutters: true },

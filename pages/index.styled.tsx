@@ -111,3 +111,9 @@ export const CountriesTitle = styled((props) => (
     margin: ${({ theme }) => theme.spacing(0, 0, 2, 1)};
   }
 `;
+
+export const CountriesList = styled(Box)`
+  display: flex;
+  flex-direction: column;
+  gap: ${({ theme }) => theme.spacing(0.5)};
+`;
