@@ -29,8 +29,7 @@ export const AccordionSummary = styled((props) => (
 export const EventTitle = styled((props) => (
   <Typography variant="subtitle1" component="span" {...props} />
 ))`
-  /*text-transform: none;
-  font-size: 0.9rem;
-  overflow: hidden;
-  text-overflow: ellipsis;*/
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: ${({ theme }) => theme.palette.text.secondary};
 `;

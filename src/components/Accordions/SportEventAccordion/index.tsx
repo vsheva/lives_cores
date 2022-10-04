@@ -29,7 +29,10 @@ const SportEventAccordion: React.FC<CountryAccordionProps> = ({
             height="10"
             style={{ marginRight: 8 }}
           />
-          {sportEvent.country}: {sportEvent.title}
+          <span style={{ textTransform: "uppercase" }}>
+            {sportEvent.country}
+          </span>
+          : {sportEvent.title}
         </Styled.EventTitle>
       </Styled.AccordionSummary>
       <AccordionDetails>{children}</AccordionDetails>
