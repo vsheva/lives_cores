@@ -12,6 +12,7 @@ import { useRouter } from "next/router";
 
 import * as Styled from "@components/MainPage/MainPage.styled";
 import CountryAccordion from "@components/CountryAccordion";
+import FilterButton from "@components/Buttons/FilterButton";
 import Logo from "public/images/logo.svg";
 
 const MOCK_COUNTRIES = [
@@ -127,16 +128,10 @@ const Home: NextPage = () => {
         <Styled.LivetableSection>
           <Styled.Paper>
             <Styled.FiltersGroup>
-              <Styled.FilterButton variant="contained">Всі</Styled.FilterButton>
-              <Styled.FilterButton variant="contained" color="inherit">
-                Live
-              </Styled.FilterButton>
-              <Styled.FilterButton variant="contained" color="inherit">
-                Коефіцієнти
-              </Styled.FilterButton>
-              <Styled.FilterButton variant="contained" color="inherit">
-                Заплановані
-              </Styled.FilterButton>
+              <FilterButton active>Всі</FilterButton>
+              <FilterButton>Live</FilterButton>
+              <FilterButton>Коефіцієнти</FilterButton>
+              <FilterButton>Заплановані</FilterButton>
             </Styled.FiltersGroup>
           </Styled.Paper>
         </Styled.LivetableSection>

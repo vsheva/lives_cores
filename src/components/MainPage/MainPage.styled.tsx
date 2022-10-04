@@ -131,5 +131,3 @@ export const FiltersGroup = styled(Box)`
   display: flex;
   gap: ${({ theme }) => theme.spacing(1)};
 `;
-
-export const FilterButton = styled(Button)``;
