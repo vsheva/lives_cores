@@ -10,6 +10,7 @@ import {
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Head from "next/head";
+import Logo from "public/images/logo.svg";
 
 import * as Styled from "./index.styled";
 
@@ -31,7 +32,7 @@ const Home: NextPage = () => {
       </Head>
       <Styled.Header>
         <Styled.HeaderContent>
-          <Image src="/images/logo.png" alt="logo" width="75" height="75" />
+          <Logo />
         </Styled.HeaderContent>
       </Styled.Header>
       <Styled.Navbar>
