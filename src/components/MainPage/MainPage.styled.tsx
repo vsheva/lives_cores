@@ -6,6 +6,7 @@ import {
   Tabs,
   Grid,
   Typography,
+  Paper,
 } from "@mui/material";
 import { Search, Person, Menu } from "@mui/icons-material";
 import styled from "styled-components";
@@ -98,6 +99,10 @@ export const CountriesSection = styled((props) => (
 
 export const LivetableSection = styled((props) => (
   <Grid item xs={8} {...props} />
+))``;
+
+export const LivetableSectionPaper = styled((props) => (
+  <Paper elevation={0} {...props} />
 ))``;
 
 export const CountriesTitle = styled((props) => (

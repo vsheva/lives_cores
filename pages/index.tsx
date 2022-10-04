@@ -11,6 +11,7 @@ import { Divider } from "@mui/material";
 import { useRouter } from "next/router";
 
 import * as Styled from "@components/MainPage/MainPage.styled";
+import * as StyledPaper from "@components/Paper/Paper.styled";
 import CountryAccordion from "@components/CountryAccordion";
 import Logo from "public/images/logo.svg";
 
@@ -125,11 +126,13 @@ const Home: NextPage = () => {
           </Styled.CountriesList>
         </Styled.CountriesSection>
         <Styled.LivetableSection>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-          voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-          fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
-          accusantium nemo autem.
+          <StyledPaper.Paper>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+            voluptatum laborum numquam blanditiis harum quisquam eius sed odit
+            fugiat iusto fuga praesentium optio, eaque rerum! Provident
+            similique accusantium nemo autem.
+          </StyledPaper.Paper>
         </Styled.LivetableSection>
       </Styled.MainSection>
     </>
