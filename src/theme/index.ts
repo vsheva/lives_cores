@@ -24,6 +24,19 @@ const theme = createTheme({
     },
   },
   components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          borderRadius: 8,
+          boxShadow: "none",
+          padding: "4px 12px",
+          minWidth: 52,
+          "&:hover": {
+            boxShadow: "none",
+          },
+        },
+      },
+    },
     MuiTabs: {
       styleOverrides: {
         root: {
@@ -53,6 +66,7 @@ const theme = createTheme({
           backgroundColor: "#eee",
           boxShadow: "none",
           border: 0,
+          padding: 0,
           "&:before": {
             display: "none",
           },
@@ -74,6 +88,14 @@ const theme = createTheme({
           },
         },
       },
+    },
+    MuiPaper: {
+      styleOverrides: {
+        root: {
+          padding: 16,
+        },
+      },
+      defaultProps: { elevation: 0 },
     },
   },
 });

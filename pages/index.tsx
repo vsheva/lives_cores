@@ -11,7 +11,6 @@ import { Divider } from "@mui/material";
 import { useRouter } from "next/router";
 
 import * as Styled from "@components/MainPage/MainPage.styled";
-import * as StyledPaper from "@components/Paper/Paper.styled";
 import CountryAccordion from "@components/CountryAccordion";
 import Logo from "public/images/logo.svg";
 
@@ -127,11 +126,18 @@ const Home: NextPage = () => {
         </Styled.CountriesSection>
         <Styled.LivetableSection>
           <Styled.Paper>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum! Provident
-            similique accusantium nemo autem.
+            <Styled.FiltersGroup>
+              <Styled.FilterButton variant="contained">Всі</Styled.FilterButton>
+              <Styled.FilterButton variant="contained" color="inherit">
+                Live
+              </Styled.FilterButton>
+              <Styled.FilterButton variant="contained" color="inherit">
+                Коефіцієнти
+              </Styled.FilterButton>
+              <Styled.FilterButton variant="contained" color="inherit">
+                Заплановані
+              </Styled.FilterButton>
+            </Styled.FiltersGroup>
           </Styled.Paper>
         </Styled.LivetableSection>
       </Styled.MainSection>
