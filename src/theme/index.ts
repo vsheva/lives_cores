@@ -53,9 +53,6 @@ const theme = createTheme({
           backgroundColor: "#eee",
           boxShadow: "none",
           border: 0,
-          "&:hover": {
-            backgroundColor: "rgba(200, 205, 205, .3)",
-          },
         },
       },
       defaultProps: { disableGutters: true },
@@ -67,6 +64,10 @@ const theme = createTheme({
           minHeight: 28,
           ".MuiAccordionSummary-content": {
             margin: 0,
+          },
+          borderRadius: 4,
+          "&:hover": {
+            backgroundColor: "rgba(200, 205, 205, .3)",
           },
         },
       },

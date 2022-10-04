@@ -5,13 +5,13 @@ import { ThemeProvider as MuiThemeProvider } from "@mui/material";
 import { CacheProvider, EmotionCache } from "@emotion/react";
 import GlobalStyle from "./GlobalStyle";
 
-interface IThemeProviderProps {
+type ThemeProviderProps = {
   children: ReactNode;
   theme: Theme;
   emotionCache: EmotionCache;
-}
+};
 
-const ThemeProvider: FC<IThemeProviderProps> = ({
+const ThemeProvider: FC<ThemeProviderProps> = ({
   children,
   theme,
   emotionCache,
