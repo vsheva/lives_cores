@@ -1,5 +1,6 @@
-import { Accordion, AccordionDetails } from "@mui/material";
 import React from "react";
+import { Accordion, AccordionDetails } from "@mui/material";
+import Image from "next/image";
 
 import type SportEvent from "@entities/SportEvent";
 import FavoriteCheckbox from "@components/Checkboxes/FavoriteCheckbox";
@@ -20,6 +21,14 @@ const SportEventAccordion: React.FC<CountryAccordionProps> = ({
       <Styled.AccordionSummary>
         <Styled.EventTitle>
           <FavoriteCheckbox />
+          {/* TODO: Should be replaced with local flag icons, replace with next/image then */}
+          <img
+            src={`https://cdn.statically.io/flags/${sportEvent.countryCode}.svg`}
+            alt={sportEvent.country}
+            width="20"
+            height="10"
+            style={{ marginRight: 8 }}
+          />
           {sportEvent.country}: {sportEvent.title}
         </Styled.EventTitle>
       </Styled.AccordionSummary>
