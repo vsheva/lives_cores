@@ -72,6 +72,22 @@ const Home: NextPage = () => {
           </Styled.NavTabs>
         </Styled.NavbarContent>
       </Styled.Navbar>
+      <Styled.MainSection>
+        <Styled.CountriesSection>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+          voluptatum laborum numquam blanditiis harum quisquam eius sed odit
+          fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
+          accusantium nemo autem.
+        </Styled.CountriesSection>
+        <Styled.LivetableSection>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+          voluptatum laborum numquam blanditiis harum quisquam eius sed odit
+          fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
+          accusantium nemo autem.
+        </Styled.LivetableSection>
+      </Styled.MainSection>
     </>
   );
 };

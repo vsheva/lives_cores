@@ -1,4 +1,4 @@
-import { Box, Button, Container, Tab, Tabs } from "@mui/material";
+import { Box, Button, Container, Tab, Tabs, Grid } from "@mui/material";
 import { Search, Person, Menu } from "@mui/icons-material";
 import styled from "styled-components";
 
@@ -74,4 +74,18 @@ export const MenuButton = styled((props) => (
   <HeaderIconButton {...props}>
     <Menu />
   </HeaderIconButton>
+))``;
+
+export const MainSection = styled((props) => (
+  <Container component="main">
+    <Grid container spacing={2} {...props} />
+  </Container>
+))``;
+
+export const CountriesSection = styled((props) => (
+  <Grid item xs={2} {...props} />
+))``;
+
+export const LivetableSection = styled((props) => (
+  <Grid item xs={8} {...props} />
 ))``;
