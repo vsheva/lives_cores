@@ -198,13 +198,18 @@ const Home: NextPage = () => {
               <FilterButton>Коефіцієнти</FilterButton>
               <FilterButton>Заплановані</FilterButton>
             </Styled.FiltersGroup>
-            {MOCK_SPORT_EVENTS.map((sportEvent) => (
-              <SportEventAccordion key={sportEvent.id} sportEvent={sportEvent}>
-                <div>1 Матч</div>
-                <div>2 Матч</div>
-                <div>3 Матч</div>
-              </SportEventAccordion>
-            ))}
+            <Styled.SportEvents>
+              {MOCK_SPORT_EVENTS.map((sportEvent) => (
+                <SportEventAccordion
+                  key={sportEvent.id}
+                  sportEvent={sportEvent}
+                >
+                  <div>1 Матч</div>
+                  <div>2 Матч</div>
+                  <div>3 Матч</div>
+                </SportEventAccordion>
+              ))}
+            </Styled.SportEvents>
           </Styled.Paper>
         </Styled.LivetableSection>
       </Styled.MainSection>

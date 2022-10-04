@@ -1,5 +1,6 @@
+import type { CheckboxProps } from "@mui/material";
 import { Star, StarBorder } from "@mui/icons-material";
-import { Checkbox, CheckboxProps } from "@mui/material";
+import { Checkbox } from "@mui/material";
 import React from "react";
 
 const FavoriteCheckbox: React.FC<CheckboxProps> = (props) => {
@@ -13,6 +14,7 @@ const FavoriteCheckbox: React.FC<CheckboxProps> = (props) => {
           props.onClick(e);
         }
       }}
+      disableRipple
       {...props}
     />
   );

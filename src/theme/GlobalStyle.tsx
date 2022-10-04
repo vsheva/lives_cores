@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle<ThemeProps<Theme>>`
   body,
   #root {
     height: 100%;
+    font-size: 14px;
   }
 
   body {

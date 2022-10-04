@@ -63,13 +63,14 @@ const theme = createTheme({
     MuiAccordion: {
       styleOverrides: {
         root: {
-          backgroundColor: "#eee",
           boxShadow: "none",
           border: 0,
+          borderRadius: 8,
           padding: 0,
           "&:before": {
             display: "none",
           },
+          background: "transparent",
         },
       },
       defaultProps: { disableGutters: true },
@@ -82,7 +83,8 @@ const theme = createTheme({
           ".MuiAccordionSummary-content": {
             margin: 0,
           },
-          borderRadius: 4,
+          borderRadius: 8,
+          backgroundColor: "#eee",
           "&:hover": {
             backgroundColor: "rgba(200, 205, 205, .3)",
           },

@@ -2,15 +2,15 @@ import {
   Typography,
   AccordionSummary as MuiAccordionSummary,
 } from "@mui/material";
-import { ArrowDropDown } from "@mui/icons-material";
+import { ExpandMore } from "@mui/icons-material";
 import styled from "styled-components";
 
 export const AccordionSummary = styled((props) => (
-  <MuiAccordionSummary expandIcon={<ArrowDropDown />} {...props} />
+  <MuiAccordionSummary expandIcon={<ExpandMore />} {...props} />
 ))`
-  /*padding-right: ${({ theme }) => theme.spacing(0.5)};
+  padding-left: 0;
 
-  .MuiAccordionSummary-content {
+  /*.MuiAccordionSummary-content {
     white-space: nowrap;
     overflow: hidden;
     margin: ${({ theme }) => theme.spacing(0)};

@@ -4,7 +4,6 @@ import styled from "styled-components";
 const FilterButton = styled((props) => (
   <Button variant="contained" {...props} />
 ))<{ active: boolean }>`
-  font-size: 0.85rem;
   line-height: 1.6;
   pointer-events: ${({ active }) => active && "none"};
   color: ${({ theme, active }) =>
