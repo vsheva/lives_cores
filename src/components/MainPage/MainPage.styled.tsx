@@ -6,10 +6,11 @@ import {
   Tabs,
   Grid,
   Typography,
-  Paper,
 } from "@mui/material";
 import { Search, Person, Menu } from "@mui/icons-material";
 import styled from "styled-components";
+
+import CustomPaper from "@components/Paper";
 
 export const Header = styled((props) => <Box component="header" {...props} />)`
   background-color: ${({ theme }) => theme.palette.secondary.main};
@@ -122,3 +123,5 @@ export const CountriesList = styled(Box)`
   flex-direction: column;
   gap: ${({ theme }) => theme.spacing(0.5)};
 `;
+
+export const Paper = styled(CustomPaper)``;
