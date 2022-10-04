@@ -26,12 +26,12 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           minHeight: 0,
-          height: 42,
+          height: 48,
           ".MuiTabs-flexContainer": {
             gap: 24,
           },
           ".MuiTabs-indicator": {
-            height: 3.5,
+            height: 5,
           },
         },
       },
@@ -41,7 +41,7 @@ const theme = createTheme({
         root: {
           padding: 2,
           minHeight: 42,
-          height: 42,
+          height: 46,
         },
       },
     },
