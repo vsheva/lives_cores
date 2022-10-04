@@ -136,5 +136,5 @@ export const SportEvents = styled(Box)`
   margin-top: ${({ theme }) => theme.spacing(2)};
   display: flex;
   flex-direction: column;
-  gap: ${({ theme }) => theme.spacing(0.25)};
+  gap: ${({ theme }) => theme.spacing(0.2)};
 `;
