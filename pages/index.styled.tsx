@@ -2,7 +2,7 @@ import { Box, Container, Tab, Tabs } from "@mui/material";
 import styled from "styled-components";
 
 export const Header = styled((props) => <Box component="header" {...props} />)`
-  background-color: ${({ theme }) => theme.palette.background.default};
+  background-color: ${({ theme }) => theme.palette.secondary.main};
 `;
 
 export const HeaderContent = styled(Container)`
@@ -11,7 +11,7 @@ export const HeaderContent = styled(Container)`
 `;
 
 export const Navbar = styled((props) => <Box component="nav" {...props} />)`
-  background-color: ${({ theme }) => theme.palette.background.default};
+  background-color: ${({ theme }) => theme.palette.secondary.main};
 `;
 
 export const NavbarContent = styled(Container)``;
@@ -24,7 +24,7 @@ export const NavTabs = styled((props) => (
   }
 
   .Mui-selected {
-    color: ${({ theme }) => theme.palette.text.primary};
+    color: ${({ theme }) => theme.palette.secondary.contrastText};
   }
 `;
 

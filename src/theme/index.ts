@@ -1,5 +1,5 @@
 import { createTheme } from "@mui/material/styles";
-import { grey, common } from "@mui/material/colors";
+import { common } from "@mui/material/colors";
 
 const theme = createTheme({
   palette: {
@@ -8,16 +8,17 @@ const theme = createTheme({
       contrastText: common.white,
     },
     secondary: {
-      main: grey.A200,
-      contrastText: "#00141e",
+      main: "#001e28",
+      light: "#0f2d37",
+      contrastText: common.white,
     },
     background: {
-      default: "#001E28",
-      paper: grey.A200,
+      default: "#eee",
+      paper: common.white,
     },
     text: {
-      primary: common.white,
-      secondary: "#00141e",
+      primary: "#00141e",
+      secondary: "#555e61",
       disabled: "#c8cdcd",
     },
   },
