@@ -62,6 +62,15 @@ const theme = createTheme({
         },
       },
     },
+    MuiInputBase: {
+      styleOverrides: {
+        root: {
+          ".MuiInputBase-input": {
+            padding: 8,
+          },
+        },
+      },
+    },
     MuiCheckbox: {
       styleOverrides: {
         root: {
@@ -85,6 +94,7 @@ const theme = createTheme({
           boxShadow: "none",
           padding: "5px 14px",
           minWidth: "auto",
+          height: "fit-content",
           "&:hover": {
             boxShadow: "none",
           },

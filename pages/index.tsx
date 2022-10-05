@@ -7,7 +7,7 @@ import {
   SportsVolleyball,
   SportsHandball,
 } from "@mui/icons-material";
-import { Divider } from "@mui/material";
+import { Divider, TextField } from "@mui/material";
 import { useRouter } from "next/router";
 
 import * as Styled from "@components/MainPage/MainPage.styled";
@@ -20,6 +20,7 @@ import MOCK_COUNTRIES from "@common/data/mock/countries";
 import { ACTIVE_TABS } from "@common/data/navbar";
 import Logo from "public/images/logo.svg";
 import Match from "@components/Match";
+import { DesktopDatePicker } from "@mui/x-date-pickers";
 
 const Home: NextPage = () => {
   const { asPath } = useRouter();
@@ -96,6 +97,22 @@ const Home: NextPage = () => {
               <FilterButton>Коефіцієнти</FilterButton>
               <FilterButton>Завершені</FilterButton>
               <FilterButton>Заплановані</FilterButton>
+              <DesktopDatePicker
+                value={new Date()}
+                onChange={() => {
+                  // TODO: Handle date change
+                }}
+                renderInput={(params) => (
+                  <TextField
+                    {...params}
+                    sx={{
+                      ".MuiInputBase-root": { height: 30 },
+                      width: 140,
+                      marginLeft: "auto",
+                    }}
+                  />
+                )}
+              />
             </Styled.FiltersGroup>
             <Styled.SportEvents>
               {MOCK_SPORT_EVENTS.map(({ matches, ...sportEvent }) => (
