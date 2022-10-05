@@ -19,20 +19,15 @@ const SportEventAccordion: React.FC<CountryAccordionProps> = ({
   return (
     <Accordion {...props}>
       <Styled.AccordionSummary>
+        <FavoriteCheckbox />
         <Styled.EventTitle>
-          <FavoriteCheckbox />
-          {/* TODO: Should be replaced with local flag icons, replace with next/image then */}
-          <img
-            src={`https://cdn.statically.io/flags/${sportEvent.countryCode}.svg`}
+          <Image
+            src={`/images/flags/${sportEvent.countryCode}.svg`}
             alt={sportEvent.country}
-            width="20"
-            height="10"
-            style={{ marginRight: 8 }}
+            width="18"
+            height="13"
           />
-          <span style={{ textTransform: "uppercase" }}>
-            {sportEvent.country}
-          </span>
-          : {sportEvent.title}
+          {sportEvent.country.toUpperCase()}: {sportEvent.title}
         </Styled.EventTitle>
       </Styled.AccordionSummary>
       <AccordionDetails>{children}</AccordionDetails>
