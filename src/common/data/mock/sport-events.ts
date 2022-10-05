@@ -7,6 +7,32 @@ const MOCK_SPORT_EVENTS: SportEvent[] = [
     country: "Австрія",
     countryCode: "au",
     isFavorite: false,
+    matches: [
+      {
+        id: 11,
+        isFavorite: false,
+        teams: [
+          {
+            id: 21,
+            name: "Китай U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/jRuxCPme-hdBmtH8p.png",
+            isForeignStadium: false,
+          },
+          {
+            id: 22,
+            name: "Австралія U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/p43T4rWH-AJnTrjri.png",
+            isForeignStadium: false,
+          },
+        ],
+        status: "PLANNED",
+        isOngoing: false,
+        plannedDate: +new Date(),
+        isFinalResultOnly: false,
+      },
+    ],
   },
   {
     id: 2,
@@ -14,6 +40,32 @@ const MOCK_SPORT_EVENTS: SportEvent[] = [
     country: "Австрія",
     countryCode: "au",
     isFavorite: false,
+    matches: [
+      {
+        id: 11,
+        isFavorite: false,
+        teams: [
+          {
+            id: 21,
+            name: "Китай U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/jRuxCPme-hdBmtH8p.png",
+            isForeignStadium: false,
+          },
+          {
+            id: 22,
+            name: "Австралія U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/p43T4rWH-AJnTrjri.png",
+            isForeignStadium: false,
+          },
+        ],
+        status: "PLANNED",
+        isOngoing: false,
+        plannedDate: +new Date(),
+        isFinalResultOnly: false,
+      },
+    ],
   },
   {
     id: 3,
@@ -21,6 +73,32 @@ const MOCK_SPORT_EVENTS: SportEvent[] = [
     country: "Азербайджан",
     countryCode: "az",
     isFavorite: false,
+    matches: [
+      {
+        id: 11,
+        isFavorite: false,
+        teams: [
+          {
+            id: 21,
+            name: "Китай U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/jRuxCPme-hdBmtH8p.png",
+            isForeignStadium: false,
+          },
+          {
+            id: 22,
+            name: "Австралія U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/p43T4rWH-AJnTrjri.png",
+            isForeignStadium: false,
+          },
+        ],
+        status: "PLANNED",
+        isOngoing: false,
+        plannedDate: +new Date(),
+        isFinalResultOnly: false,
+      },
+    ],
   },
   {
     id: 4,
@@ -28,6 +106,32 @@ const MOCK_SPORT_EVENTS: SportEvent[] = [
     country: "Англія",
     countryCode: "gb-eng",
     isFavorite: false,
+    matches: [
+      {
+        id: 11,
+        isFavorite: false,
+        teams: [
+          {
+            id: 21,
+            name: "Китай U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/jRuxCPme-hdBmtH8p.png",
+            isForeignStadium: false,
+          },
+          {
+            id: 22,
+            name: "Австралія U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/p43T4rWH-AJnTrjri.png",
+            isForeignStadium: false,
+          },
+        ],
+        status: "PLANNED",
+        isOngoing: false,
+        plannedDate: +new Date(),
+        isFinalResultOnly: false,
+      },
+    ],
   },
   {
     id: 5,
@@ -35,6 +139,32 @@ const MOCK_SPORT_EVENTS: SportEvent[] = [
     country: "Англія",
     countryCode: "gb-eng",
     isFavorite: false,
+    matches: [
+      {
+        id: 11,
+        isFavorite: false,
+        teams: [
+          {
+            id: 21,
+            name: "Китай U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/jRuxCPme-hdBmtH8p.png",
+            isForeignStadium: false,
+          },
+          {
+            id: 22,
+            name: "Австралія U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/p43T4rWH-AJnTrjri.png",
+            isForeignStadium: false,
+          },
+        ],
+        status: "PLANNED",
+        isOngoing: false,
+        plannedDate: +new Date(),
+        isFinalResultOnly: false,
+      },
+    ],
   },
   {
     id: 6,
@@ -42,6 +172,32 @@ const MOCK_SPORT_EVENTS: SportEvent[] = [
     country: "Англія",
     countryCode: "gb-eng",
     isFavorite: false,
+    matches: [
+      {
+        id: 11,
+        isFavorite: false,
+        teams: [
+          {
+            id: 21,
+            name: "Китай U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/jRuxCPme-hdBmtH8p.png",
+            isForeignStadium: false,
+          },
+          {
+            id: 22,
+            name: "Австралія U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/p43T4rWH-AJnTrjri.png",
+            isForeignStadium: false,
+          },
+        ],
+        status: "PLANNED",
+        isOngoing: false,
+        plannedDate: +new Date(),
+        isFinalResultOnly: false,
+      },
+    ],
   },
   {
     id: 7,
@@ -49,6 +205,32 @@ const MOCK_SPORT_EVENTS: SportEvent[] = [
     country: "Англія",
     countryCode: "gb-eng",
     isFavorite: false,
+    matches: [
+      {
+        id: 11,
+        isFavorite: false,
+        teams: [
+          {
+            id: 21,
+            name: "Китай U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/jRuxCPme-hdBmtH8p.png",
+            isForeignStadium: false,
+          },
+          {
+            id: 22,
+            name: "Австралія U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/p43T4rWH-AJnTrjri.png",
+            isForeignStadium: false,
+          },
+        ],
+        status: "PLANNED",
+        isOngoing: false,
+        plannedDate: +new Date(),
+        isFinalResultOnly: false,
+      },
+    ],
   },
   {
     id: 8,
@@ -56,6 +238,32 @@ const MOCK_SPORT_EVENTS: SportEvent[] = [
     country: "Англія",
     countryCode: "gb-eng",
     isFavorite: false,
+    matches: [
+      {
+        id: 11,
+        isFavorite: false,
+        teams: [
+          {
+            id: 21,
+            name: "Китай U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/jRuxCPme-hdBmtH8p.png",
+            isForeignStadium: false,
+          },
+          {
+            id: 22,
+            name: "Австралія U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/p43T4rWH-AJnTrjri.png",
+            isForeignStadium: false,
+          },
+        ],
+        status: "PLANNED",
+        isOngoing: false,
+        plannedDate: +new Date(),
+        isFinalResultOnly: false,
+      },
+    ],
   },
   {
     id: 9,
@@ -63,6 +271,32 @@ const MOCK_SPORT_EVENTS: SportEvent[] = [
     country: "Англія",
     countryCode: "gb-eng",
     isFavorite: false,
+    matches: [
+      {
+        id: 11,
+        isFavorite: false,
+        teams: [
+          {
+            id: 21,
+            name: "Китай U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/jRuxCPme-hdBmtH8p.png",
+            isForeignStadium: false,
+          },
+          {
+            id: 22,
+            name: "Австралія U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/p43T4rWH-AJnTrjri.png",
+            isForeignStadium: false,
+          },
+        ],
+        status: "PLANNED",
+        isOngoing: false,
+        plannedDate: +new Date(),
+        isFinalResultOnly: false,
+      },
+    ],
   },
   {
     id: 10,
@@ -70,6 +304,32 @@ const MOCK_SPORT_EVENTS: SportEvent[] = [
     country: "Англія",
     countryCode: "gb-eng",
     isFavorite: false,
+    matches: [
+      {
+        id: 11,
+        isFavorite: false,
+        teams: [
+          {
+            id: 21,
+            name: "Китай U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/jRuxCPme-hdBmtH8p.png",
+            isForeignStadium: false,
+          },
+          {
+            id: 22,
+            name: "Австралія U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/p43T4rWH-AJnTrjri.png",
+            isForeignStadium: false,
+          },
+        ],
+        status: "PLANNED",
+        isOngoing: false,
+        plannedDate: +new Date(),
+        isFinalResultOnly: false,
+      },
+    ],
   },
 ];
 

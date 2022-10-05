@@ -10,7 +10,7 @@ import { getRgba } from "@common/utils/palette";
 
 export const Accordion = styled(MuiAccordion)`
   .MuiAccordionDetails-root {
-    margin-bottom: ${({ theme }) => theme.spacing(1)};
+    margin: ${({ theme }) => theme.spacing(0, 0, 1, 1)};
     border-bottom: 1px solid
       ${({ theme }) => getRgba(theme.palette.secondary.dark, 0.06)};
   }

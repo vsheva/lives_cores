@@ -142,7 +142,6 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           padding: "0 0 8px 0",
-          margin: "0 0 0 8px",
         },
       },
     },
@@ -162,6 +161,15 @@ const theme = createTheme({
           color: "#555e61",
           "&:hover": {
             color: "#00141e",
+          },
+        },
+      },
+    },
+    MuiGrid: {
+      styleOverrides: {
+        root: {
+          "&.MuiGrid-container": {
+            margin: 0,
           },
         },
       },

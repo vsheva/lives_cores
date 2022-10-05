@@ -7,7 +7,7 @@ import FavoriteCheckbox from "@components/Checkboxes/FavoriteCheckbox";
 import * as Styled from "./SportEventAccordion.styled";
 
 type CountryAccordionProps = {
-  sportEvent: SportEvent;
+  sportEvent: Omit<SportEvent, "matches">;
   children: React.ReactNode;
 };
 

@@ -19,6 +19,7 @@ import MOCK_SPORT_EVENTS from "@common/data/mock/sport-events";
 import MOCK_COUNTRIES from "@common/data/mock/countries";
 import { ACTIVE_TABS } from "@common/data/navbar";
 import Logo from "public/images/logo.svg";
+import Match from "@components/Match";
 
 const Home: NextPage = () => {
   const { asPath } = useRouter();
@@ -97,14 +98,14 @@ const Home: NextPage = () => {
               <FilterButton>Заплановані</FilterButton>
             </Styled.FiltersGroup>
             <Styled.SportEvents>
-              {MOCK_SPORT_EVENTS.map((sportEvent) => (
+              {MOCK_SPORT_EVENTS.map(({ matches, ...sportEvent }) => (
                 <SportEventAccordion
                   key={sportEvent.id}
                   sportEvent={sportEvent}
                 >
-                  <div>1 Матч</div>
-                  <div>2 Матч</div>
-                  <div>3 Матч</div>
+                  {matches.map((match) => (
+                    <Match key={match.id} match={match} />
+                  ))}
                 </SportEventAccordion>
               ))}
             </Styled.SportEvents>
