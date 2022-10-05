@@ -11,6 +11,7 @@ import { Divider } from "@mui/material";
 import { useRouter } from "next/router";
 
 import * as Styled from "@components/MainPage/MainPage.styled";
+import CountrySportEvent from "@components/Accordions/CountryAccordion/SportEvent";
 import SportEventAccordion from "@components/Accordions/SportEventAccordion";
 import CountryAccordion from "@components/Accordions/CountryAccordion";
 import FilterButton from "@components/Buttons/FilterButton";
@@ -79,9 +80,9 @@ const Home: NextPage = () => {
           <Styled.CountriesList>
             {MOCK_COUNTRIES.map((country) => (
               <CountryAccordion key={country} country={country}>
-                <div>1 Лига</div>
-                <div>2 Лига</div>
-                <div>3 Лига</div>
+                <CountrySportEvent>1 Лига</CountrySportEvent>
+                <CountrySportEvent>2 Лига</CountrySportEvent>
+                <CountrySportEvent>3 Лига</CountrySportEvent>
               </CountryAccordion>
             ))}
           </Styled.CountriesList>

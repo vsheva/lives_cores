@@ -1,13 +1,16 @@
-import type { CheckboxProps } from "@mui/material";
 import { Star, StarBorder } from "@mui/icons-material";
 import { Checkbox } from "@mui/material";
+import styled from "styled-components";
 import React from "react";
 
-const FavoriteCheckbox: React.FC<CheckboxProps> = (props) => {
+import { getRgba } from "@common/utils/palette";
+import theme from "@theme";
+
+const FavoriteCheckbox = styled((props) => {
   return (
     <Checkbox
       icon={<StarBorder sx={{ opacity: 0.5 }} />}
-      checkedIcon={<Star htmlColor="#FFCD00" />}
+      checkedIcon={<Star htmlColor={theme.palette.common.yellow} />}
       onClick={(e) => {
         e.stopPropagation();
         if (props.onClick) {
@@ -18,6 +21,15 @@ const FavoriteCheckbox: React.FC<CheckboxProps> = (props) => {
       {...props}
     />
   );
-};
+})`
+  &.Mui-checked {
+    color: ${({ theme }) => theme.palette.common.yellow};
+
+    &:hover {
+      background-color: ${({ theme }) =>
+        getRgba(theme.palette.common.yellow, 0.2)};
+    }
+  }
+`;
 
 export default FavoriteCheckbox;

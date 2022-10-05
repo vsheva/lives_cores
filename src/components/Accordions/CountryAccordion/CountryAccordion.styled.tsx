@@ -3,6 +3,7 @@ import {
   AccordionSummary as MuiAccordionSummary,
 } from "@mui/material";
 import { ArrowDropDown } from "@mui/icons-material";
+import { getRgba } from "@common/utils/palette";
 import styled from "styled-components";
 
 export const AccordionSummary = styled((props) => (
@@ -23,7 +24,7 @@ export const AccordionSummary = styled((props) => (
 
   &:hover {
     background-color: ${({ theme }) =>
-      `rgba(${theme.palette.supportRgb.dark}, .3)`};
+      `${getRgba(theme.palette.support.light, 0.3)}`};
   }
 
   &:hover .MuiAccordionSummary-expandIconWrapper {
