@@ -1,13 +1,14 @@
-import { Typography } from "@mui/material";
+import { Link, Typography } from "@mui/material";
 import React from "react";
 
+import type SportEvent from "@entities/SportEvent";
 import FavoriteCheckbox from "@components/Checkboxes/FavoriteCheckbox";
 
 type CountrySportEventProps = {
-  children: React.ReactNode;
+  title: SportEvent["title"];
 };
 
-const CountrySportEvent: React.FC<CountrySportEventProps> = ({ children }) => {
+const CountrySportEvent: React.FC<CountrySportEventProps> = ({ title }) => {
   return (
     <Typography
       sx={{
@@ -20,8 +21,10 @@ const CountrySportEvent: React.FC<CountrySportEventProps> = ({ children }) => {
       variant="subtitle1"
       component="span"
     >
-      {children}
-      <FavoriteCheckbox disableRipple={false} sx={{ padding: 0.5 }} />
+      <Link href="#" sx={{ flex: 1 }}>
+        {title}
+      </Link>
+      <FavoriteCheckbox sx={{ "*": { fontSize: "1.5rem" } }} />
     </Typography>
   );
 };

@@ -1,4 +1,4 @@
-import { Accordion, AccordionDetails, AccordionSummary } from "@mui/material";
+import { AccordionDetails, AccordionSummary } from "@mui/material";
 import React from "react";
 
 import * as Styled from "./CountryAccordion.styled";
@@ -14,12 +14,12 @@ const CountryAccordion: React.FC<CountryAccordionProps> = ({
   ...props
 }) => {
   return (
-    <Accordion {...props}>
+    <Styled.Accordion {...props}>
       <Styled.AccordionSummary>
         <Styled.CountryTitle>{country}</Styled.CountryTitle>
       </Styled.AccordionSummary>
       <AccordionDetails>{children}</AccordionDetails>
-    </Accordion>
+    </Styled.Accordion>
   );
 };
 

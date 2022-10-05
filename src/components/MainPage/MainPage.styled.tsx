@@ -120,7 +120,6 @@ export const CountriesTitle = styled((props) => (
 export const CountriesList = styled(Box)`
   display: flex;
   flex-direction: column;
-  gap: ${({ theme }) => theme.spacing(0.5)};
 `;
 
 export const Paper = styled((props) => (

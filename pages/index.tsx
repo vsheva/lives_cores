@@ -80,9 +80,9 @@ const Home: NextPage = () => {
           <Styled.CountriesList>
             {MOCK_COUNTRIES.map((country) => (
               <CountryAccordion key={country} country={country}>
-                <CountrySportEvent>1 Лига</CountrySportEvent>
-                <CountrySportEvent>2 Лига</CountrySportEvent>
-                <CountrySportEvent>3 Лига</CountrySportEvent>
+                <CountrySportEvent title="Лига 1" />
+                <CountrySportEvent title="Лига 2" />
+                <CountrySportEvent title="Лига 3" />
               </CountryAccordion>
             ))}
           </Styled.CountriesList>

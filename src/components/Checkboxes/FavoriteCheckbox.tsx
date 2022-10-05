@@ -17,7 +17,6 @@ const FavoriteCheckbox = styled((props) => {
           props.onClick(e);
         }
       }}
-      disableRipple
       {...props}
     />
   );

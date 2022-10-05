@@ -61,11 +61,15 @@ const theme = createTheme({
     MuiCheckbox: {
       styleOverrides: {
         root: {
+          padding: 4,
           "&.Mui-checked": {
             color: "#eee",
           },
           "&:hover": {
             backgroundColor: getRgba("#999", 0.2),
+          },
+          "*": {
+            fontSize: "1.75rem",
           },
         },
       },
@@ -134,6 +138,14 @@ const theme = createTheme({
         },
       },
     },
+    MuiAccordionDetails: {
+      styleOverrides: {
+        root: {
+          padding: "0 0 8px 0",
+          margin: "0 0 0 8px",
+        },
+      },
+    },
     MuiPaper: {
       styleOverrides: {
         root: {
@@ -142,6 +154,17 @@ const theme = createTheme({
         },
       },
       defaultProps: { elevation: 0 },
+    },
+    MuiLink: {
+      styleOverrides: {
+        root: {
+          textDecoration: "none",
+          color: "#555e61",
+          "&:hover": {
+            color: "#00141e",
+          },
+        },
+      },
     },
   },
 });
