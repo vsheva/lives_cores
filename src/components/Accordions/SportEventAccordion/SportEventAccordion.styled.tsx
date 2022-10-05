@@ -25,4 +25,5 @@ export const EventTitle = styled((props) => (
   color: ${({ theme }) => theme.palette.text.secondary};
   font-size: 0.95rem;
   font-weight: 500;
+  margin-left: ${({ theme }) => theme.spacing(0.5)};
 `;
