@@ -93,6 +93,7 @@ const Home: NextPage = () => {
               <FilterButton active>Всі</FilterButton>
               <FilterButton>Live</FilterButton>
               <FilterButton>Коефіцієнти</FilterButton>
+              <FilterButton>Завершені</FilterButton>
               <FilterButton>Заплановані</FilterButton>
             </Styled.FiltersGroup>
             <Styled.SportEvents>
