@@ -10,128 +10,14 @@ import {
 import { Divider } from "@mui/material";
 import { useRouter } from "next/router";
 
-import type SportEvent from "@entities/SportEvent";
 import * as Styled from "@components/MainPage/MainPage.styled";
 import SportEventAccordion from "@components/Accordions/SportEventAccordion";
 import CountryAccordion from "@components/Accordions/CountryAccordion";
 import FilterButton from "@components/Buttons/FilterButton";
+import MOCK_SPORT_EVENTS from "@common/data/mock/sport-events";
+import MOCK_COUNTRIES from "@common/data/mock/countries";
+import { ACTIVE_TABS } from "@common/data/navbar";
 import Logo from "public/images/logo.svg";
-
-const MOCK_COUNTRIES = [
-  "Афганістан",
-  "Албанія",
-  "Алжир",
-  "Американське Самоа",
-  "Андорра",
-  "Ангола",
-  "Ангілья",
-  "Антарктида",
-  "Антигуа і Барбуда",
-  "Аргентина",
-  "Вірменія",
-  "Аруба",
-  "Австралія",
-  "Австрія",
-  "Азербайджан",
-  "Багамські острови (the)",
-  "Бахрейн",
-  "Бангладеш",
-  "Барбадос",
-  "Білорусь",
-  "Бельгія",
-  "Беліз",
-  "Бенін",
-  "Бермудські острови",
-  "Бутан",
-  "Болівія (Багатонаціональна Держава)",
-  "Бонайре, Сінт-Естатіус і Саба",
-  "Боснія і Герцеговина",
-  "Ботсвана",
-  "Острів Буве",
-  "Бразилія",
-];
-
-const MOCK_SPORT_EVENTS: SportEvent[] = [
-  {
-    id: 1,
-    title: "Регіональна ліга - Центр",
-    country: "Австрія",
-    countryCode: "au",
-    isFavorite: false,
-  },
-  {
-    id: 2,
-    title: "Регіональна ліга - Захід - Тіроль",
-    country: "Австрія",
-    countryCode: "au",
-    isFavorite: false,
-  },
-  {
-    id: 3,
-    title: "Перший дивізіон",
-    country: "Азербайджан",
-    countryCode: "az",
-    isFavorite: false,
-  },
-  {
-    id: 4,
-    title: "Чемпіоншип",
-    country: "Англія",
-    countryCode: "gb-eng",
-    isFavorite: false,
-  },
-  {
-    id: 5,
-    title: "Перша ліга",
-    country: "Англія",
-    countryCode: "gb-eng",
-    isFavorite: false,
-  },
-  {
-    id: 6,
-    title: "Друга ліга",
-    country: "Англія",
-    countryCode: "gb-eng",
-    isFavorite: false,
-  },
-  {
-    id: 7,
-    title: "Національна Ліга",
-    country: "Англія",
-    countryCode: "gb-eng",
-    isFavorite: false,
-  },
-  {
-    id: 8,
-    title: "ПчПЛ Прем'єр-дивізіон",
-    country: "Англія",
-    countryCode: "gb-eng",
-    isFavorite: false,
-  },
-  {
-    id: 9,
-    title: "Південна ліга - Центральний дивізіон",
-    country: "Англія",
-    countryCode: "gb-eng",
-    isFavorite: false,
-  },
-  {
-    id: 10,
-    title: "Південна ліга - Південний дивізіон",
-    country: "Англія",
-    countryCode: "gb-eng",
-    isFavorite: false,
-  },
-];
-
-const ACTIVE_TABS = {
-  football: "/",
-  basketball: "/basketball",
-  tenis: "/tennis",
-  hokey: "/hokey",
-  volleyball: "/valleyball",
-  handball: "/handball",
-};
 
 const Home: NextPage = () => {
   const { asPath } = useRouter();

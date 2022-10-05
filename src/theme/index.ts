@@ -30,7 +30,7 @@ const theme = createTheme({
           borderRadius: 8,
           boxShadow: "none",
           padding: "5px 14px",
-          minWidth: 52,
+          minWidth: "auto",
           "&:hover": {
             boxShadow: "none",
           },
