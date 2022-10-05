@@ -13,8 +13,11 @@ declare module "@mui/material/styles/createPalette" {
       main: string;
       light: string;
       dark: string;
+      darker: string;
     };
   }
+
+  interface Palette extends PaletteOptions {}
 }
 
 // TODO: Move all theme options to files
@@ -28,6 +31,7 @@ const theme = createTheme({
       main: "#eee",
       light: "#c8cdcd",
       dark: "#999",
+      darker: "#555e61",
     },
     common: {
       ...common,

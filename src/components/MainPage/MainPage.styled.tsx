@@ -94,7 +94,7 @@ export const MainSection = styled((props) => (
 `;
 
 export const CountriesSection = styled((props) => (
-  <Grid item xs={2} {...props} />
+  <Grid item xs={2} component="aside" {...props} />
 ))``;
 
 export const LivetableSection = styled((props) => (
