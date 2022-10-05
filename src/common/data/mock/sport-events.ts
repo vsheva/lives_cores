@@ -32,6 +32,30 @@ const MOCK_SPORT_EVENTS: SportEvent[] = [
         plannedDate: +new Date(),
         isFinalResultOnly: false,
       },
+      {
+        id: 11,
+        isFavorite: false,
+        teams: [
+          {
+            id: 21,
+            name: "Китай U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/jRuxCPme-hdBmtH8p.png",
+            isForeignStadium: false,
+          },
+          {
+            id: 22,
+            name: "Австралія U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/p43T4rWH-AJnTrjri.png",
+            isForeignStadium: false,
+          },
+        ],
+        status: "PLANNED",
+        isOngoing: false,
+        plannedDate: +new Date(),
+        isFinalResultOnly: false,
+      },
     ],
   },
   {
@@ -65,6 +89,30 @@ const MOCK_SPORT_EVENTS: SportEvent[] = [
         plannedDate: +new Date(),
         isFinalResultOnly: false,
       },
+      {
+        id: 11,
+        isFavorite: false,
+        teams: [
+          {
+            id: 21,
+            name: "Китай U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/jRuxCPme-hdBmtH8p.png",
+            isForeignStadium: false,
+          },
+          {
+            id: 22,
+            name: "Австралія U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/p43T4rWH-AJnTrjri.png",
+            isForeignStadium: false,
+          },
+        ],
+        status: "PLANNED",
+        isOngoing: false,
+        plannedDate: +new Date(),
+        isFinalResultOnly: false,
+      },
     ],
   },
   {
@@ -74,6 +122,30 @@ const MOCK_SPORT_EVENTS: SportEvent[] = [
     countryCode: "az",
     isFavorite: false,
     matches: [
+      {
+        id: 11,
+        isFavorite: false,
+        teams: [
+          {
+            id: 21,
+            name: "Китай U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/jRuxCPme-hdBmtH8p.png",
+            isForeignStadium: false,
+          },
+          {
+            id: 22,
+            name: "Австралія U17",
+            logoUrl:
+              "https://www.flashscore.ua/res/image/data/p43T4rWH-AJnTrjri.png",
+            isForeignStadium: false,
+          },
+        ],
+        status: "PLANNED",
+        isOngoing: false,
+        plannedDate: +new Date(),
+        isFinalResultOnly: false,
+      },
       {
         id: 11,
         isFavorite: false,
