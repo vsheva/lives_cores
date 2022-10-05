@@ -1,9 +1,8 @@
 import type MatchType from "@entities/Match";
 import React from "react";
-import { Box, Grid, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 
 import FavoriteCheckbox from "@components/Checkboxes/FavoriteCheckbox";
-import { getRgba } from "@common/utils/palette";
 import theme from "@theme";
 
 type MatchProps = {
@@ -11,6 +10,7 @@ type MatchProps = {
 };
 
 const Match: React.FC<MatchProps> = ({ match }) => {
+  // TODO: Move to styled components, add other columns
   return (
     <Box
       sx={{
