@@ -21,6 +21,11 @@ export const AccordionSummary = styled((props) => (
     transition: opacity 0.1s;
   }
 
+  &:hover {
+    background-color: ${({ theme }) =>
+      `rgba(${theme.palette.supportRgb.dark}, .3)`};
+  }
+
   &:hover .MuiAccordionSummary-expandIconWrapper {
     opacity: 1;
   }

@@ -20,9 +20,9 @@ export const AccordionSummary = styled((props) => (
 export const EventTitle = styled((props) => (
   <Typography variant="subtitle1" component="span" {...props} />
 ))`
-  font-size: 0.95rem;
-  font-weight: 500;
-  color: ${({ theme }) => theme.palette.text.secondary};
   display: flex;
   gap: ${({ theme }) => theme.spacing(1)};
+  color: ${({ theme }) => theme.palette.text.secondary};
+  font-size: 0.95rem;
+  font-weight: 500;
 `;
