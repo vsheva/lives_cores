@@ -12,6 +12,7 @@ import React from "react";
 
 type DatePickerProps = {
   date: Date;
+  // TODO: implement onChange handler
 };
 
 const DATE_FORMAT = "dd/MM eeeeee";
