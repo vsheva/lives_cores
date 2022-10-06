@@ -97,9 +97,15 @@ const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = ({
           vertical: "top",
           horizontal: "center",
         }}
-        PaperProps={{ sx: { padding: 1, width: 160 } }}
+        PaperProps={{ sx: { padding: "12px 8px", width: 160 } }}
       >
-        <Box sx={{ display: "flex", flexDirection: "column" }}>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            gap: 0.2,
+          }}
+        >
           {/* TODO: DRY some code */}
           {weekDates.map((weekDate) => (
             <Button
