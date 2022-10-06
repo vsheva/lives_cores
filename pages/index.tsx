@@ -97,7 +97,7 @@ const Home: NextPage = () => {
               <FilterButton>Коефіцієнти</FilterButton>
               <FilterButton>Завершені</FilterButton>
               <FilterButton>Заплановані</FilterButton>
-              <DatePicker />
+              <DatePicker style={{ marginLeft: "auto" }} />
             </Styled.FiltersGroup>
             <Styled.SportEvents>
               {MOCK_SPORT_EVENTS.map(({ matches, ...sportEvent }) => (
