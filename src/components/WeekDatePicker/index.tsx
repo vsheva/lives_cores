@@ -20,6 +20,8 @@ const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = ({
   date,
   ...props
 }) => {
+  // TODO: Refactor to styled components
+
   const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(
     null
   );
@@ -97,6 +99,7 @@ const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = ({
         PaperProps={{ sx: { padding: 1, width: 160 } }}
       >
         <Box sx={{ display: "flex", flexDirection: "column" }}>
+          {/* DRY some code */}
           {weekDates.map((weekDate) => (
             <Button
               color={isSameDay(weekDate, date) ? "primary" : "inherit"}
