@@ -101,7 +101,9 @@ export const CountriesSection = styled((props) => (
 
 export const LivetableSection = styled((props) => (
   <Grid item xs={8} {...props} />
-))``;
+))`
+  margin-bottom: ${({ theme }) => theme.spacing(2)};
+`;
 
 export const LivetableSectionPaper = styled((props) => (
   <Paper elevation={0} {...props} />
