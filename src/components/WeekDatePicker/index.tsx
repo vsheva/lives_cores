@@ -10,13 +10,16 @@ import { addDays, format, isSameDay, subDays } from "date-fns";
 import ukLocale from "date-fns/locale/uk";
 import React from "react";
 
-type DatePickerProps = {};
+type DatePickerProps = {
+  date: Date;
+};
 
 const DATE_FORMAT = "dd/MM eeeeee";
 
-const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = (
-  props
-) => {
+const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = ({
+  date,
+  ...props
+}) => {
   const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(
     null
   );
@@ -91,13 +94,23 @@ const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = (
           vertical: "top",
           horizontal: "center",
         }}
+        PaperProps={{ sx: { padding: 1, width: 160 } }}
       >
         <Box sx={{ display: "flex", flexDirection: "column" }}>
-          {weekDates.map((date) => (
-            <Button sx={{ flex: 1 }} key={date}>
-              {isSameDay(date, new Date())
+          {weekDates.map((weekDate) => (
+            <Button
+              color={isSameDay(weekDate, date) ? "primary" : "inherit"}
+              variant={isSameDay(weekDate, date) ? "contained" : "text"}
+              sx={{
+                flex: 1,
+                padding: "4px 24px",
+                fontWeight: isSameDay(weekDate, date) ? 600 : 400,
+              }}
+              key={weekDate}
+            >
+              {isSameDay(weekDate, new Date())
                 ? "Сьогодні"
-                : format(date, DATE_FORMAT, { locale: ukLocale })}
+                : format(weekDate, DATE_FORMAT, { locale: ukLocale })}
             </Button>
           ))}
         </Box>

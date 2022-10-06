@@ -18,7 +18,7 @@ import FilterButton from "@components/Buttons/FilterButton";
 import MOCK_SPORT_EVENTS from "@common/data/mock/sport-events";
 import MOCK_COUNTRIES from "@common/data/mock/countries";
 import { ACTIVE_TABS } from "@common/data/navbar";
-import DatePicker from "@components/DatePicker";
+import WeekDatePicker from "@components/WeekDatePicker";
 import Logo from "public/images/logo.svg";
 import Match from "@components/Match";
 
@@ -97,7 +97,10 @@ const Home: NextPage = () => {
               <FilterButton>Коефіцієнти</FilterButton>
               <FilterButton>Завершені</FilterButton>
               <FilterButton>Заплановані</FilterButton>
-              <DatePicker style={{ marginLeft: "auto" }} />
+              <WeekDatePicker
+                date={new Date()}
+                style={{ marginLeft: "auto" }}
+              />
             </Styled.FiltersGroup>
             <Styled.SportEvents>
               {MOCK_SPORT_EVENTS.map(({ matches, ...sportEvent }) => (
