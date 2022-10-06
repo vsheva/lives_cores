@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import { useEffect, useState } from "react";
 import {
   SportsSoccer,
   SportsBasketball,
@@ -10,20 +11,33 @@ import {
 import { Divider } from "@mui/material";
 import { useRouter } from "next/router";
 
+import type SportEvent from "@entities/SportEvent";
 import * as Styled from "@components/MainPage/MainPage.styled";
 import CountrySportEvent from "@components/Accordions/CountryAccordion/SportEvent";
 import SportEventAccordion from "@components/Accordions/SportEventAccordion";
 import CountryAccordion from "@components/Accordions/CountryAccordion";
 import FilterButton from "@components/Buttons/FilterButton";
-import MOCK_SPORT_EVENTS from "@common/data/mock/sport-events";
+import * as SportEventsGateway from "@gateways/sport-events";
 import MOCK_COUNTRIES from "@common/data/mock/countries";
-import { ACTIVE_TABS } from "@common/data/navbar";
 import WeekDatePicker from "@components/WeekDatePicker";
+import { ACTIVE_TABS } from "@common/data/navbar";
 import Logo from "public/images/logo.svg";
 import Match from "@components/Match";
 
-const Home: NextPage = () => {
+type HomePageProps = {
+  sportEvents: SportEvent[];
+};
+
+const Home: NextPage<HomePageProps> = () => {
   const { asPath } = useRouter();
+  const [sportEvents, setSportEvents] = useState([]);
+
+  useEffect(() => {
+    (async () => {
+      const sportEvents = await SportEventsGateway.getSportEvents();
+      setSportEvents(sportEvents);
+    })();
+  }, []);
 
   return (
     <>
@@ -103,7 +117,7 @@ const Home: NextPage = () => {
               />
             </Styled.FiltersGroup>
             <Styled.SportEvents>
-              {MOCK_SPORT_EVENTS.map(({ matches, ...sportEvent }) => (
+              {sportEvents.map(({ matches, ...sportEvent }) => (
                 <SportEventAccordion
                   key={sportEvent.id}
                   sportEvent={sportEvent}

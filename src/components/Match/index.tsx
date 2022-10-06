@@ -10,6 +10,7 @@ type MatchProps = {
 };
 
 const Match: React.FC<MatchProps> = ({ match }) => {
+  const [homeTeam, awayTeam] = match.teams;
   // TODO: Move to styled components, add other columns
   return (
     <Box
@@ -40,29 +41,44 @@ const Match: React.FC<MatchProps> = ({ match }) => {
       <Box
         sx={{ gridArea: "stageOrTime", color: theme.palette.text.secondary }}
       >
-        Завершено
+        {match.status}
       </Box>
       <img
         style={{
           width: 16,
+          height: 16,
           gridArea: "homeLogo",
         }}
-        src="https://www.flashscore.ua/res/image/data/r5iH05UH-bm1huYuJ.png"
+        src={homeTeam.logoUrl}
       />
       <img
-        style={{ width: 16, gridArea: "awayLogo" }}
-        src="https://www.flashscore.ua/res/image/data/x6v5exT0-OvlpVrSr.png"
+        style={{ width: 16, height: 16, gridArea: "awayLogo" }}
+        src={awayTeam.logoUrl}
       />
-      <Box sx={{ gridArea: "homeParticipant" }}>Зіра 2</Box>
-      <Box sx={{ gridArea: "awayParticipant", fontWeight: 600 }}>Араз</Box>
-      <Box sx={{ gridArea: "homeScore", fontWeight: 600 }}>0</Box>
-      <Box sx={{ gridArea: "awayScore", fontWeight: 600 }}>1</Box>
-      <Box sx={{ gridArea: "homePart1", color: theme.palette.support.dark }}>
-        (0)
+      <Box sx={{ gridArea: "homeParticipant" }}>{homeTeam.name}</Box>
+      <Box sx={{ gridArea: "awayParticipant", fontWeight: 600 }}>
+        {awayTeam.name}
       </Box>
-      <Box sx={{ gridArea: "awayPart1", color: theme.palette.support.dark }}>
-        (1)
+      <Box sx={{ gridArea: "homeScore", fontWeight: 600 }}>
+        {homeTeam.score || "-"}
       </Box>
+      <Box sx={{ gridArea: "awayScore", fontWeight: 600 }}>
+        {awayTeam.score || "-"}
+      </Box>
+      {typeof homeTeam.score === "number" && (
+        <>
+          <Box
+            sx={{ gridArea: "homePart1", color: theme.palette.support.dark }}
+          >
+            ({homeTeam.part || "-"})
+          </Box>
+          <Box
+            sx={{ gridArea: "awayPart1", color: theme.palette.support.dark }}
+          >
+            ({awayTeam.part || "-"})
+          </Box>
+        </>
+      )}
     </Box>
   );
 };
