@@ -99,7 +99,7 @@ const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = ({
         PaperProps={{ sx: { padding: 1, width: 160 } }}
       >
         <Box sx={{ display: "flex", flexDirection: "column" }}>
-          {/* DRY some code */}
+          {/* TODO: DRY some code */}
           {weekDates.map((weekDate) => (
             <Button
               color={isSameDay(weekDate, date) ? "primary" : "inherit"}
