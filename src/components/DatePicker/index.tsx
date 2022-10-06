@@ -6,7 +6,7 @@ import {
 } from "@mui/icons-material";
 import { Box, BoxTypeMap, Button, Popover } from "@mui/material";
 import { OverridableComponent } from "@mui/material/OverridableComponent";
-import { addDays, format, subDays } from "date-fns";
+import { addDays, format, isSameDay, subDays } from "date-fns";
 import ukLocale from "date-fns/locale/uk";
 import React from "react";
 
@@ -91,7 +91,17 @@ const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = (
           vertical: "top",
           horizontal: "center",
         }}
-      ></Popover>
+      >
+        <Box sx={{ display: "flex", flexDirection: "column" }}>
+          {weekDates.map((date) => (
+            <Button sx={{ flex: 1 }} key={date}>
+              {isSameDay(date, new Date())
+                ? "Сьогодні"
+                : format(date, DATE_FORMAT, { locale: ukLocale })}
+            </Button>
+          ))}
+        </Box>
+      </Popover>
     </>
   );
 };
