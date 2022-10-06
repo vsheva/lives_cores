@@ -119,6 +119,7 @@ const Home: NextPage = () => {
                 <SportEventAccordion
                   key={sportEvent.id}
                   sportEvent={sportEvent}
+                  defaultExpanded
                 >
                   {matches.map((match) => (
                     <Match key={match.id} match={match} />

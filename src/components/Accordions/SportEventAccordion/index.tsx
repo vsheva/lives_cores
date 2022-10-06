@@ -1,3 +1,4 @@
+import type { AccordionProps } from "@mui/material";
 import React from "react";
 import { Accordion, AccordionDetails } from "@mui/material";
 import Image from "next/image";
@@ -9,7 +10,7 @@ import * as Styled from "./SportEventAccordion.styled";
 type CountryAccordionProps = {
   sportEvent: Omit<SportEvent, "matches">;
   children: React.ReactNode;
-};
+} & AccordionProps;
 
 const SportEventAccordion: React.FC<CountryAccordionProps> = ({
   sportEvent,
