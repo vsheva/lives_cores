@@ -79,7 +79,7 @@ const theme = createTheme({
             color: "#eee",
           },
           "&:hover": {
-            backgroundColor: getRgba("#999", 0.2),
+            backgroundColor: getRgba("#999", 0.1),
           },
           "*": {
             fontSize: "1.75rem",
