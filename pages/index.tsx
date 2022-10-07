@@ -14,15 +14,17 @@ const Home: NextPage = () => {
   const [footballSportEvents, setFootballSportEvents] = useState<SportEvents>({
     sportEvents: [],
   } as SportEvents);
+  const [date, setDate] = useState<Date>(new Date());
 
   useEffect(() => {
     (async () => {
       const sportEvents = await SportEventsGateway.getSportEvents(
-        SPORT_NAME_ID
+        SPORT_NAME_ID,
+        date
       );
       setFootballSportEvents(sportEvents);
     })();
-  }, []);
+  }, [date]);
 
   return (
     <Layout
@@ -33,7 +35,11 @@ const Home: NextPage = () => {
         />
       }
     >
-      <Livetable sportEvents={footballSportEvents.sportEvents} />
+      <Livetable
+        sportEvents={footballSportEvents.sportEvents}
+        date={date}
+        onDateChange={(newDate) => setDate(newDate)}
+      />
     </Layout>
   );
 };

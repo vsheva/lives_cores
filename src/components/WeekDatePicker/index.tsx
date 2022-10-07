@@ -12,13 +12,14 @@ import React from "react";
 
 type DatePickerProps = {
   date: Date;
-  // TODO: implement onChange handler
+  onChange: (newDate: Date) => void;
 };
 
 const DATE_FORMAT = "dd/MM eeeeee";
 
 const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = ({
   date,
+  onChange,
   ...props
 }) => {
   // TODO: Refactor to styled components
@@ -76,7 +77,7 @@ const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = ({
           onClick={handleClick}
         >
           <CalendarMonthOutlined />
-          {format(new Date(), DATE_FORMAT, { locale: ukLocale })}
+          {format(date, DATE_FORMAT, { locale: ukLocale })}
         </Button>
         <Button
           color="inherit"
@@ -117,6 +118,7 @@ const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = ({
                 fontWeight: isSameDay(weekDate, date) ? 600 : 400,
               }}
               key={weekDate}
+              onClick={() => onChange(weekDate)}
             >
               {isSameDay(weekDate, new Date())
                 ? "Сьогодні"

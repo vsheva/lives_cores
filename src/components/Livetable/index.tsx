@@ -10,9 +10,15 @@ import * as Styled from "./Livetable.styled";
 
 type LivetableProps = {
   sportEvents: SportEvents["sportEvents"];
+  date: Date;
+  onDateChange: (newDate: Date) => void;
 };
 
-const Livetable: React.FC<LivetableProps> = ({ sportEvents }) => {
+const Livetable: React.FC<LivetableProps> = ({
+  sportEvents,
+  date,
+  onDateChange,
+}) => {
   return (
     <Styled.Paper>
       <Styled.FiltersGroup>
@@ -21,7 +27,11 @@ const Livetable: React.FC<LivetableProps> = ({ sportEvents }) => {
         <FilterButton>Коефіцієнти</FilterButton>
         <FilterButton>Завершені</FilterButton>
         <FilterButton>Заплановані</FilterButton>
-        <WeekDatePicker date={new Date()} style={{ marginLeft: "auto" }} />
+        <WeekDatePicker
+          date={date}
+          onChange={onDateChange}
+          style={{ marginLeft: "auto" }}
+        />
       </Styled.FiltersGroup>
       <Styled.SportEvents>
         {sportEvents.map(({ matches, ...sportEvent }) => (

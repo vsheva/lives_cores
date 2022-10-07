@@ -4,8 +4,12 @@ import type SportNameId from "@entities/SportNameId";
 import type SportEvents from "@entities/SportEvents";
 
 export const getSportEvents = async (
-  sportName: SportNameId
+  sportName: SportNameId,
+  date: Date
 ): Promise<SportEvents> => {
-  const { data } = await axios.get(`/api/sport-events/${sportName}`);
+  const { data } = await axios.get(
+    `/api/sport-events/${sportName}/${date.toISOString()}`
+  );
+  console.log(data);
   return data;
 };

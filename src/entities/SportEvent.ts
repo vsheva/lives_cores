@@ -5,6 +5,7 @@ type SportEvent = {
   name: string;
   country: string;
   countryCode: string;
+  date: number;
   isFavorite: boolean;
   matches: Match[];
 };
