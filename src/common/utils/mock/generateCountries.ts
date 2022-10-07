@@ -11,7 +11,7 @@ const generateCountries = (count: number): Country[] =>
       name: (function getCountry() {
         const newCountry = faker.address.country();
         if (countries.map(({ name }) => name).includes(newCountry)) {
-          getCountry();
+          return getCountry();
         }
 
         return newCountry;
