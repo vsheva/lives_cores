@@ -1,4 +1,4 @@
-import sportEvents from "@common/data/mock/sport-events.json";
+import { sportEvents } from "../index";
 
 export default function handler(req, res) {
   res
