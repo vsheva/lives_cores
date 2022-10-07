@@ -1,6 +1,6 @@
-import type Match from "@entities/Match";
 import { faker } from "@faker-js/faker";
 
+import type Match from "@entities/Match";
 import generateTeams from "./generateTeams";
 
 const generateMatches = (count: number): Match[] =>

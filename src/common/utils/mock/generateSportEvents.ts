@@ -1,6 +1,7 @@
+import { faker } from "@faker-js/faker";
+
 import type SportEvent from "@entities/SportEvent";
 import generateMatches from "@common/utils/mock/generateMatches";
-import { faker } from "@faker-js/faker";
 
 const generateSportEvents = (count: number, matchesCount = 5): SportEvent[] =>
   Array(count)

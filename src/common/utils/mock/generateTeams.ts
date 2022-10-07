@@ -1,5 +1,6 @@
-import type { Team } from "@entities/Match";
 import { faker } from "@faker-js/faker";
+
+import type { Team } from "@entities/Match";
 
 const generateTeams = (): [Team, Team] =>
   Array(2)
