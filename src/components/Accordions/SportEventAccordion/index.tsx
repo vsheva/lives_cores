@@ -28,7 +28,7 @@ const SportEventAccordion: React.FC<CountryAccordionProps> = ({
             width="18"
             height="13"
           />
-          {sportEvent.country.toUpperCase()}: {sportEvent.title}
+          {sportEvent.country.toUpperCase()}: {sportEvent.name}
         </Styled.EventTitle>
       </Styled.AccordionSummary>
       <AccordionDetails>{children}</AccordionDetails>
