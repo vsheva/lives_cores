@@ -23,7 +23,7 @@ const SportEventAccordion: React.FC<CountryAccordionProps> = ({
         <FavoriteCheckbox />
         <Styled.EventTitle>
           <Image
-            src={`/images/flags/${sportEvent.countryCode}.svg`}
+            src={`/images/flags/${sportEvent.countryCode.toLowerCase()}.svg`}
             alt={sportEvent.country}
             width="18"
             height="13"
