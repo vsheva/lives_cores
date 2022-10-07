@@ -2,7 +2,7 @@ import type Match from "@entities/Match";
 
 type SportEvent = {
   id: number;
-  title: string;
+  name: string;
   country: string;
   countryCode: string;
   isFavorite: boolean;

@@ -1,7 +1,7 @@
-import type SportName from "@entities/SportName";
+import type SportNameId from "@entities/SportNameId";
 import type NavLink from "@entities/NavLink";
 
-export const ACTIVE_TABS: Record<SportName, NavLink> = {
+export const ACTIVE_TABS: Record<SportNameId, NavLink> = {
   football: "/",
   basketball: "/basketball",
   tenis: "/tenis",

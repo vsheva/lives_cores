@@ -1,0 +1,2582 @@
+[
+  {
+    "id": "171522b7-aeeb-4562-afa6-c0554150dbe0",
+    "name": "Bosco Group",
+    "country": "Saint Pierre and Miquelon",
+    "countryCode": "PM",
+    "isFavorite": false,
+    "matches": [
+      {
+        "id": "e1872daf-82ba-468a-9e3b-092643712a4e",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "4884fac0-d962-4923-ba64-8d1516e2762a",
+            "name": "Dietrich, Cremin and Johnston",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?88300",
+            "score": 4
+          },
+          {
+            "id": "6d6a7aa5-3839-453c-a566-0611588fd25c",
+            "name": "Block Inc",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?92505",
+            "score": 1
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": true,
+        "plannedDate": 1665145922621,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "8c6f653f-c5bb-46bf-ad30-6d4f51c42f1d",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "7249638c-79fe-435f-953e-41da32deed62",
+            "name": "Stiedemann, Luettgen and Christiansen",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?82923",
+            "score": 0
+          },
+          {
+            "id": "e5c8897b-92d1-4644-ae41-bc96c9a96aad",
+            "name": "Rosenbaum - Roberts",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?42543",
+            "score": 5
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": false,
+        "plannedDate": 1665145922622,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "fc04f551-f7c8-41b2-9877-4f2ecc0286b2",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "49039b60-1a1f-4b7b-8c32-f05838a8f69e",
+            "name": "Carter, Bauch and Veum",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?44801",
+            "score": 2
+          },
+          {
+            "id": "0131d9ff-023a-4aef-939f-5fe4a3ae1cea",
+            "name": "Block, Jenkins and Grimes",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?22828",
+            "score": 4
+          }
+        ],
+        "status": "PLANNED",
+        "isOngoing": true,
+        "plannedDate": 1665145922622,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "c3bba55f-6cab-4871-8f24-08e26a3ec4d5",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "57b6aad0-ca6f-4651-b83f-d1841c03eaa7",
+            "name": "Hermann - Crona",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?88819",
+            "score": 3
+          },
+          {
+            "id": "e8a3be36-8f29-4714-a12a-d8c75bd0630e",
+            "name": "Vandervort - Stracke",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?94501",
+            "score": 2
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": false,
+        "plannedDate": 1665145922622,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "a1f55b7a-650f-42c4-8a1f-f5a2c7b28a71",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "ec5ad95b-37cc-4de2-8494-d06d945023f7",
+            "name": "Schamberger, Labadie and Murray",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?38766",
+            "score": 3
+          },
+          {
+            "id": "e5d784d1-fa66-4c36-831f-d9c972ba1a91",
+            "name": "Reilly Group",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?10984",
+            "score": 4
+          }
+        ],
+        "status": "FINISHED",
+        "isOngoing": true,
+        "plannedDate": 1665145922622,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      }
+    ]
+  },
+  {
+    "id": "044ee650-b9b7-4e93-87fb-c9e45d4e6c56",
+    "name": "King and Sons",
+    "country": "Solomon Islands",
+    "countryCode": "SB",
+    "isFavorite": true,
+    "matches": [
+      {
+        "id": "8c5c52e3-e42b-480c-b951-2bf17ece817d",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "6d6afd55-9741-403a-b623-d622d8a9d029",
+            "name": "Nitzsche, Parker and Ledner",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?97358",
+            "score": 5
+          },
+          {
+            "id": "3230461a-f593-432a-9860-6eac45f7f67a",
+            "name": "Cummings - Kreiger",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?15546",
+            "score": 3
+          }
+        ],
+        "status": "PLANNED",
+        "isOngoing": false,
+        "plannedDate": 1665145922623,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "c256fc7e-3d63-486a-bcdf-08619ab3fe4e",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "53fcb2f1-b9e7-42d1-ab6d-d2fd77312391",
+            "name": "Farrell, Morar and Lockman",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?17585",
+            "score": 0
+          },
+          {
+            "id": "a90c406c-a923-4848-9431-aaa80bd3802b",
+            "name": "Lemke - Schuppe",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?57177",
+            "score": 2
+          }
+        ],
+        "status": "PLANNED",
+        "isOngoing": true,
+        "plannedDate": 1665145922623,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "7b7c172d-f332-46a1-a0c9-1f7d87d0ba61",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "ea6db531-3597-41a2-8644-70c5e4d148cb",
+            "name": "Muller LLC",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?66571",
+            "score": 0
+          },
+          {
+            "id": "23992906-3144-47ea-a55f-4d6dc00d2b80",
+            "name": "Pollich and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?16692",
+            "score": 5
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": true,
+        "plannedDate": 1665145922623,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "20737d0a-1b2e-4458-8f24-7011968ecc14",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "de98fc72-7b52-4e4e-bd1e-3ba016a46acb",
+            "name": "Muller and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?36433",
+            "score": 4
+          },
+          {
+            "id": "491ac2fe-1ac8-488a-b274-c8fa0571a1e1",
+            "name": "Spencer Inc",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?11439",
+            "score": 0
+          }
+        ],
+        "status": "FINISHED",
+        "isOngoing": false,
+        "plannedDate": 1665145922623,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "0f6cb41e-711c-46cd-ae69-c23b731db699",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "8cc271e1-8d9d-45c4-9af8-c00790dda197",
+            "name": "Rogahn LLC",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?90103",
+            "score": 3
+          },
+          {
+            "id": "ec649570-c1bb-4ad9-892a-c542dc8b838b",
+            "name": "Gerlach - Hane",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?58682",
+            "score": 4
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": false,
+        "plannedDate": 1665145922623,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      }
+    ]
+  },
+  {
+    "id": "9941a446-e0fc-4927-8a65-488e3b64c6e9",
+    "name": "Armstrong, Keeling and Abernathy",
+    "country": "Norfolk Island",
+    "countryCode": "NF",
+    "isFavorite": false,
+    "matches": [
+      {
+        "id": "d773f27c-cc75-4f51-bb31-49f7e75e2693",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "0b00ccab-44d5-4fdf-9266-b437f941dd0f",
+            "name": "Carter - Rice",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?6116",
+            "score": 3
+          },
+          {
+            "id": "b7cfbcd6-228a-4f2f-ab53-87615c16eb2c",
+            "name": "Kihn Inc",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?13909",
+            "score": 3
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": true,
+        "plannedDate": 1665145922623,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "92b090af-4ce4-4a00-b336-1c39cb93868c",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "2a355303-e7f4-4142-bdfa-e3704cd77fe9",
+            "name": "Jones LLC",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?29778",
+            "score": 5
+          },
+          {
+            "id": "db60e76d-b31c-4d13-a1b3-cc2d78540ff9",
+            "name": "Hilpert - Hickle",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?70317",
+            "score": 4
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": false,
+        "plannedDate": 1665145922624,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "c6080677-8ea2-4261-b630-ad024ce40fdc",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "01a20204-9c83-41db-ab41-d9a5cd544991",
+            "name": "Mitchell Inc",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?11570",
+            "score": 1
+          },
+          {
+            "id": "71257215-7852-4a47-ada2-b28d50d34476",
+            "name": "Bogan Inc",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?98099",
+            "score": 0
+          }
+        ],
+        "status": "MOVED",
+        "isOngoing": false,
+        "plannedDate": 1665145922624,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "bd964159-fc89-4d53-bf78-c41c476b9cfa",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "77a89f11-1aa1-4c0e-b7c5-ef21b2c112a9",
+            "name": "Pfeffer Group",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?49196",
+            "score": 5
+          },
+          {
+            "id": "dd5840d8-4e75-4d10-9f38-ea3ed1f6777a",
+            "name": "Morissette - Nienow",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?8524",
+            "score": 3
+          }
+        ],
+        "status": "FINISHED",
+        "isOngoing": true,
+        "plannedDate": 1665145922624,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "aa76f38a-1132-418e-b41d-bc1826f1aff2",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "3d611975-f0eb-43ce-9683-db11535b45ed",
+            "name": "Satterfield, Gusikowski and Stanton",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?77358",
+            "score": 1
+          },
+          {
+            "id": "405ec050-55fa-479f-bb3f-a37f1f9db38c",
+            "name": "Oberbrunner and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?84205",
+            "score": 0
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": true,
+        "plannedDate": 1665145922624,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      }
+    ]
+  },
+  {
+    "id": "479e2e12-a501-45d6-a165-029191eb87c4",
+    "name": "Mueller Group",
+    "country": "Falkland Islands (Malvinas)",
+    "countryCode": "FK",
+    "isFavorite": true,
+    "matches": [
+      {
+        "id": "b9a99def-c621-4a08-a2f2-887e0f70cb32",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "89ba8c89-b419-4be2-acc2-7aeb574179cd",
+            "name": "Wolf - Little",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?32863",
+            "score": 3
+          },
+          {
+            "id": "a8be0a5f-e10f-4160-864a-df3e53a331e6",
+            "name": "Hackett, Brekke and Hyatt",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?62461",
+            "score": 1
+          }
+        ],
+        "status": "CANCELLED",
+        "isOngoing": false,
+        "plannedDate": 1665145922624,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "9347b6ab-071f-4fe2-92bf-875a71ebed8f",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "9f53d822-fcae-407d-aaf8-5cfbacdb5055",
+            "name": "Mitchell, Nitzsche and Wyman",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?31270",
+            "score": 0
+          },
+          {
+            "id": "fe18589e-8e8d-4644-b54d-75d8fe8fd6ac",
+            "name": "Emard, Vandervort and Stoltenberg",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?112",
+            "score": 1
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": true,
+        "plannedDate": 1665145922624,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "4a2c8f70-b884-4ad8-a9ed-563ace36c082",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "613cf287-aeee-4ed5-91fb-4c0cce317058",
+            "name": "Hettinger - Zulauf",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?81875",
+            "score": 4
+          },
+          {
+            "id": "e23030a9-4962-405c-a15a-c4395681233c",
+            "name": "Konopelski - Rau",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?49103",
+            "score": 4
+          }
+        ],
+        "status": "CANCELLED",
+        "isOngoing": true,
+        "plannedDate": 1665145922624,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "c170da24-f72f-42b8-b7f1-d6f63c6a6df8",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "7875e8c8-f09b-4d7d-9c40-044d506346cc",
+            "name": "Turner, Willms and Quigley",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?79739",
+            "score": 0
+          },
+          {
+            "id": "218568d4-124a-416a-aeaa-2f2f4578dde5",
+            "name": "Gusikowski - Kohler",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?64359",
+            "score": 1
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": true,
+        "plannedDate": 1665145922625,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "28eb73fb-fc70-45d7-ae09-f172a5d17032",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "ecfc5054-7c56-4f4b-8372-8d4cf9d70296",
+            "name": "Kreiger Inc",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?10104",
+            "score": 0
+          },
+          {
+            "id": "33837daf-be26-47fe-9946-a04c8ff83143",
+            "name": "Reichert - Collier",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?87115",
+            "score": 0
+          }
+        ],
+        "status": "MOVED",
+        "isOngoing": true,
+        "plannedDate": 1665145922625,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      }
+    ]
+  },
+  {
+    "id": "52306fd5-b442-4288-8adc-3e3a4ca86f5e",
+    "name": "Tromp - Ruecker",
+    "country": "Serbia",
+    "countryCode": "RS",
+    "isFavorite": true,
+    "matches": [
+      {
+        "id": "a3327f83-cf1a-46bd-997e-26f3a72ce41d",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "14cc7fea-ae66-47a8-a88a-223ede873464",
+            "name": "Greenfelder, Williamson and Tromp",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?67724",
+            "score": 2
+          },
+          {
+            "id": "5585bbe8-9b8d-46d4-92f8-237f135cef75",
+            "name": "Murphy - Rowe",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?2585",
+            "score": 2
+          }
+        ],
+        "status": "MOVED",
+        "isOngoing": true,
+        "plannedDate": 1665145922625,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "81c9fe3f-9ea1-474d-8698-ae944b9b7325",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "b2387b4a-31dd-44f9-b97b-2dca2cf3b137",
+            "name": "Stamm - Pfannerstill",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?81548",
+            "score": 5
+          },
+          {
+            "id": "2d3eac57-e126-45d1-82c4-506dcd3241dc",
+            "name": "Renner - Kulas",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?44925",
+            "score": 0
+          }
+        ],
+        "status": "MOVED",
+        "isOngoing": false,
+        "plannedDate": 1665145922625,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "b33dbf6c-61c7-4fdb-ad6a-f5a6cfc3236e",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "9faf96c4-5fa4-44d6-b6c7-0cb33e9c0323",
+            "name": "Shields Inc",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?18986",
+            "score": 4
+          },
+          {
+            "id": "daf5e2a7-69e0-4088-b529-bae00ed07ece",
+            "name": "Grimes Inc",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?11094",
+            "score": 0
+          }
+        ],
+        "status": "MOVED",
+        "isOngoing": false,
+        "plannedDate": 1665145922625,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "d16fde41-4357-4c4a-89da-3514edcbb218",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "02ac1866-8c36-4f7b-9e75-c8e707e563c9",
+            "name": "Wiegand, Kassulke and Bergnaum",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?70446",
+            "score": 4
+          },
+          {
+            "id": "b30d6bd3-3da0-495b-8974-c23742861756",
+            "name": "Kilback - Kemmer",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?42984",
+            "score": 5
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": true,
+        "plannedDate": 1665145922625,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "3cf596af-6ea1-4709-b771-21e7a8967de7",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "d08020f5-f797-4fda-962e-da441872b4cf",
+            "name": "Hoeger, Paucek and Oberbrunner",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?82952",
+            "score": 4
+          },
+          {
+            "id": "97bd19b6-6319-4496-84bf-c352cf40dd42",
+            "name": "Wilderman, Willms and Dickens",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?74222",
+            "score": 1
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": true,
+        "plannedDate": 1665145922626,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      }
+    ]
+  },
+  {
+    "id": "9c171a7f-5fca-4af9-a484-4b301ee71306",
+    "name": "Konopelski Group",
+    "country": "Palau",
+    "countryCode": "PW",
+    "isFavorite": true,
+    "matches": [
+      {
+        "id": "9f454261-51f5-48f2-a32b-73c595716d4e",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "07bfb4ed-f15a-4bad-91e2-8ded429fd4bc",
+            "name": "Reichel LLC",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?40352",
+            "score": 5
+          },
+          {
+            "id": "fd9c6f4d-2053-4df1-b114-115eef75bdab",
+            "name": "Konopelski - Gutkowski",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?59709",
+            "score": 2
+          }
+        ],
+        "status": "FINISHED",
+        "isOngoing": false,
+        "plannedDate": 1665145922626,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "0661c2b1-ec07-4ff7-80fb-ef390e65ca14",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "ce7ba25d-f691-4eba-9edf-85f1dc3bc5bf",
+            "name": "Bednar and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?35405",
+            "score": 3
+          },
+          {
+            "id": "3eb6581d-69b0-4ed4-b267-6a5461d5a22a",
+            "name": "Wiegand, Klein and Osinski",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?98066",
+            "score": 1
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": true,
+        "plannedDate": 1665145922626,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "9a1d8e66-84ce-4bbf-9f88-6ad70c6bbda4",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "4dc11628-e645-4203-8070-028b989dc52e",
+            "name": "Ward Group",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?87135",
+            "score": 1
+          },
+          {
+            "id": "dbfa40f9-8de3-4c3d-8c35-f3515e5a7394",
+            "name": "Schmitt - Crooks",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?17143",
+            "score": 5
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": true,
+        "plannedDate": 1665145922626,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "ccdccd28-a9a8-4056-a402-c486fecc79b4",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "dc08c505-2904-4715-8b7b-e550b9812105",
+            "name": "Bode - Spencer",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?51628",
+            "score": 3
+          },
+          {
+            "id": "f2321a19-fb6e-467a-b4fa-5106be46fcba",
+            "name": "Effertz - Schumm",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?94662",
+            "score": 0
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": true,
+        "plannedDate": 1665145922626,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "550ae3d4-9963-4b5d-b6d3-0a15ff162407",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "29d6a5b1-3765-4ec9-a83c-f47672fc0398",
+            "name": "Harris, Nikolaus and Senger",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?2821",
+            "score": 4
+          },
+          {
+            "id": "3467b149-5097-49f7-aee7-32d59b4e981e",
+            "name": "Moen, Dach and Lindgren",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?81591",
+            "score": 3
+          }
+        ],
+        "status": "FINISHED",
+        "isOngoing": false,
+        "plannedDate": 1665145922626,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      }
+    ]
+  },
+  {
+    "id": "6ef076ad-750c-4e89-94a8-bc42bd51b74d",
+    "name": "Murray - Shields",
+    "country": "Tuvalu",
+    "countryCode": "TV",
+    "isFavorite": false,
+    "matches": [
+      {
+        "id": "434cc4ee-7b17-4244-811d-af994b2606d8",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "b9fd8be9-9359-4ae6-afe2-2db262bd445e",
+            "name": "Hintz, Gutkowski and Roob",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?29298",
+            "score": 4
+          },
+          {
+            "id": "416a90d6-8db9-42e6-87ef-1a474a01a1f3",
+            "name": "Franey, Ullrich and Hodkiewicz",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?44704",
+            "score": 3
+          }
+        ],
+        "status": "MOVED",
+        "isOngoing": true,
+        "plannedDate": 1665145922628,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "49212fe9-bafd-418e-8a7f-58d73e672ab2",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "4985babf-c934-416e-ae8d-cb402f12fd14",
+            "name": "Kunze Inc",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?16650",
+            "score": 0
+          },
+          {
+            "id": "9585d792-b6fc-4c38-aa44-32a2c9a42350",
+            "name": "Hilll, Greenfelder and Reichel",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?80773",
+            "score": 4
+          }
+        ],
+        "status": "PLANNED",
+        "isOngoing": true,
+        "plannedDate": 1665145922628,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "24af4c87-19c2-43bc-84e9-89f605ceb403",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "29581633-84e5-4203-aba0-b09e4f20bd78",
+            "name": "Green LLC",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?27067",
+            "score": 5
+          },
+          {
+            "id": "b8fad4f0-293b-4407-8c5b-0d57fc049374",
+            "name": "Batz Group",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?2398",
+            "score": 0
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": false,
+        "plannedDate": 1665145922628,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "fc065677-1a73-4803-ac01-66cbbeb86275",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "ad50f977-6c7d-4263-8f58-c4e752134d7c",
+            "name": "Auer, Cassin and Crona",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?5188",
+            "score": 4
+          },
+          {
+            "id": "feaf2913-3751-4209-b487-b09c43691b4a",
+            "name": "Klein - Ankunding",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?15957",
+            "score": 0
+          }
+        ],
+        "status": "MOVED",
+        "isOngoing": false,
+        "plannedDate": 1665145922628,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "ae19f5ee-9814-40f8-a7ad-e2a1dc711cf8",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "3db8e44b-632e-4390-801d-945dab1e156f",
+            "name": "Bradtke, Rice and Johns",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?60130",
+            "score": 5
+          },
+          {
+            "id": "fbbaea0f-5db4-4ea4-bd91-3e7278588b71",
+            "name": "Barton LLC",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?89816",
+            "score": 2
+          }
+        ],
+        "status": "CANCELLED",
+        "isOngoing": true,
+        "plannedDate": 1665145922628,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      }
+    ]
+  },
+  {
+    "id": "ef28e2ce-5382-4594-ac58-5803f50b4602",
+    "name": "Brakus, Runte and Halvorson",
+    "country": "Hong Kong",
+    "countryCode": "HK",
+    "isFavorite": true,
+    "matches": [
+      {
+        "id": "9151ae1c-9c02-4b61-881e-3d62eb84360a",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "5991a44e-0fc2-472b-96ce-75ce82cfb9cd",
+            "name": "Mueller and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?19615",
+            "score": 1
+          },
+          {
+            "id": "919786b8-0793-40b9-bef4-087369dce58b",
+            "name": "O'Kon - Dach",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?35099",
+            "score": 2
+          }
+        ],
+        "status": "MOVED",
+        "isOngoing": true,
+        "plannedDate": 1665145922629,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "bac35c4c-da37-4be8-9ec8-bdcd15b8292b",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "5a403511-9f86-4ac1-86e4-0b6e36714161",
+            "name": "Reynolds, Quitzon and Homenick",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?22006",
+            "score": 1
+          },
+          {
+            "id": "f1f2023e-396d-46f2-be18-8025a1b1f659",
+            "name": "Schimmel - Kertzmann",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?79197",
+            "score": 0
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": false,
+        "plannedDate": 1665145922629,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "4309074d-452f-40b4-8d2a-3564aed35f6d",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "be37b70e-8af1-4ef2-aaab-051e63c83c5a",
+            "name": "Gutmann, Treutel and McKenzie",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?1591",
+            "score": 0
+          },
+          {
+            "id": "49bb48d8-4205-46d0-a5f1-7f33ee31ac81",
+            "name": "Johnson, Wilderman and Simonis",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?41845",
+            "score": 4
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": false,
+        "plannedDate": 1665145922629,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "4b117d64-3eeb-46cb-a138-f0c934264889",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "c8c5662d-5f67-4bcd-8902-8e57e6432829",
+            "name": "Beahan - Hickle",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?89499",
+            "score": 1
+          },
+          {
+            "id": "330e3322-f927-4dc2-b398-18167d29442a",
+            "name": "Hoppe - Schmitt",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?28684",
+            "score": 4
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": true,
+        "plannedDate": 1665145922629,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "80d1f6ea-d834-4184-b363-1f35fb2dc6ab",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "0b7ce36f-02d1-45a6-8f1c-e42470efd2ca",
+            "name": "Quitzon, Klocko and Smitham",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?95949",
+            "score": 1
+          },
+          {
+            "id": "d8bc364c-5a10-4e07-8f00-2680f551456e",
+            "name": "Thompson Group",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?43358",
+            "score": 2
+          }
+        ],
+        "status": "CANCELLED",
+        "isOngoing": false,
+        "plannedDate": 1665145922629,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      }
+    ]
+  },
+  {
+    "id": "c9c8634f-f4e9-4759-8358-c188065e2752",
+    "name": "Kuhn, Wintheiser and Yundt",
+    "country": "Ukraine",
+    "countryCode": "UA",
+    "isFavorite": true,
+    "matches": [
+      {
+        "id": "56b93ae1-1dfc-498b-a220-37de051aef1a",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "e2d3e354-cfbc-42d9-8c71-3c9398871f4e",
+            "name": "Gutmann - Marks",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?86938",
+            "score": 0
+          },
+          {
+            "id": "cf1cbb91-99e3-49fc-a579-235a6cc210e7",
+            "name": "O'Connell and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?44887",
+            "score": 5
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": true,
+        "plannedDate": 1665145922629,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "795f0038-cdb5-4236-b841-3fa043792e34",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "671a7eeb-2276-4c3f-9a0f-f08269f92d1b",
+            "name": "Keebler - Kilback",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?56314",
+            "score": 1
+          },
+          {
+            "id": "aed92115-8746-4fca-91aa-241a81fffdb3",
+            "name": "Rice, Medhurst and Turcotte",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?61429",
+            "score": 0
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": true,
+        "plannedDate": 1665145922630,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "468ef2dc-f70c-4176-ae8d-c955fd381c19",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "bfe6d979-1a54-40d6-8d4c-fe25039a0689",
+            "name": "Mayert LLC",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?88546",
+            "score": 3
+          },
+          {
+            "id": "280e58dc-1a8f-42c1-8226-482430593652",
+            "name": "Goyette, Sipes and Stiedemann",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?40394",
+            "score": 4
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": false,
+        "plannedDate": 1665145922630,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "5248189e-82e7-498b-93ca-faaf5f3ce61d",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "311e8e2b-7643-4f1f-a4aa-9901b6495306",
+            "name": "Nitzsche - Bartell",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?62334",
+            "score": 3
+          },
+          {
+            "id": "13b7b3c7-5fb2-4acb-8717-9ee1e6030204",
+            "name": "Friesen, Gislason and Bauch",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?65580",
+            "score": 4
+          }
+        ],
+        "status": "MOVED",
+        "isOngoing": false,
+        "plannedDate": 1665145922630,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "b2a36bcd-7870-4ab9-9fc2-63c01dbe8615",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "b599154a-b0f3-4230-963a-05ec052c5c80",
+            "name": "Gulgowski - Lakin",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?5248",
+            "score": 5
+          },
+          {
+            "id": "d8d2a341-4249-4e35-8e89-83d6fbc03e4c",
+            "name": "Feest - Erdman",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?96191",
+            "score": 4
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": true,
+        "plannedDate": 1665145922630,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      }
+    ]
+  },
+  {
+    "id": "e678b56c-5459-4e37-9652-d6abed01c170",
+    "name": "Padberg - Padberg",
+    "country": "Timor-Leste",
+    "countryCode": "TL",
+    "isFavorite": true,
+    "matches": [
+      {
+        "id": "d2daf6ac-1b46-4aca-8ab3-a780c17af367",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "15239948-4d83-4883-9df9-5eac0154a324",
+            "name": "Lang - Bergstrom",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?83864",
+            "score": 1
+          },
+          {
+            "id": "1ac8d0bd-cb59-4d99-a936-be7e8959ebcc",
+            "name": "Schultz and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?43684",
+            "score": 3
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": false,
+        "plannedDate": 1665145922631,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "ab87dcb8-7684-4fd0-be90-25245d2af9da",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "d83c4413-bd3c-4224-898f-1ed862593449",
+            "name": "Bergnaum and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?24557",
+            "score": 4
+          },
+          {
+            "id": "6f8e7669-8943-4d36-8dbe-c0a40e4d743f",
+            "name": "Heathcote, Mraz and Parker",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?60036",
+            "score": 2
+          }
+        ],
+        "status": "PLANNED",
+        "isOngoing": false,
+        "plannedDate": 1665145922631,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "31727292-f218-44ff-af37-e14bd71ee0da",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "34b2995c-9c1b-42f3-b579-361e69c0b7d7",
+            "name": "Lind - Grimes",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?26236",
+            "score": 3
+          },
+          {
+            "id": "6f9bb877-6087-41e9-9809-712a9b676cd4",
+            "name": "Breitenberg LLC",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?46951",
+            "score": 2
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": false,
+        "plannedDate": 1665145922631,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "0bdcce97-2b31-4440-b58c-cb201c41b367",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "f3a08a6d-852b-4c6b-a092-7ff2fc576f19",
+            "name": "Spencer and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?89826",
+            "score": 0
+          },
+          {
+            "id": "6417ba02-075c-48f3-9fba-159571ee426e",
+            "name": "Koelpin - Mraz",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?59188",
+            "score": 4
+          }
+        ],
+        "status": "CANCELLED",
+        "isOngoing": true,
+        "plannedDate": 1665145922631,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "17e4b12a-391b-4fab-a1cc-71541b313fde",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "a2415f9e-589a-4006-b041-ae91a22f7268",
+            "name": "Price, Hauck and Kris",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?5969",
+            "score": 1
+          },
+          {
+            "id": "5a154ce3-1c2b-481f-a0f3-2764eef652f1",
+            "name": "Donnelly - Rohan",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?59068",
+            "score": 4
+          }
+        ],
+        "status": "FINISHED",
+        "isOngoing": false,
+        "plannedDate": 1665145922631,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      }
+    ]
+  },
+  {
+    "id": "1d535689-1a64-4ee5-9023-9eb8fff424f2",
+    "name": "Hudson, Fahey and Gutmann",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "isFavorite": false,
+    "matches": [
+      {
+        "id": "51e3667c-effa-49b1-bc44-9f8559a489cd",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "9e9147ca-0135-4457-8b5d-91659439ee24",
+            "name": "Abernathy - Kassulke",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?31933",
+            "score": 0
+          },
+          {
+            "id": "5f0273cb-265b-4b0b-bba2-2a79a8a567a3",
+            "name": "Dicki - Stark",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?88654",
+            "score": 4
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": false,
+        "plannedDate": 1665145922632,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "d6509db1-4bf3-4326-80c0-f77b18afd68d",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "c404361d-70bd-46e0-b750-e6593f90f842",
+            "name": "Kirlin and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?52503",
+            "score": 4
+          },
+          {
+            "id": "e991dc2d-ec5f-4c42-815f-f6a0bb823498",
+            "name": "Gottlieb, Hodkiewicz and Kling",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?79019",
+            "score": 2
+          }
+        ],
+        "status": "MOVED",
+        "isOngoing": true,
+        "plannedDate": 1665145922632,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "5c1a6e23-4302-49bb-bb66-05f7c6941c2a",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "c4c39d3d-3b8e-4cf0-b03f-05aabb00c5b2",
+            "name": "Mohr - Bogan",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?34113",
+            "score": 4
+          },
+          {
+            "id": "e1fc859f-0624-468c-ad31-078379c8c4fe",
+            "name": "Fritsch - Abshire",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?55492",
+            "score": 3
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": false,
+        "plannedDate": 1665145922632,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "af98307f-34ed-4ba7-95fa-68fef68714a1",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "af85a4a7-7bb4-447e-b8ca-48ab921fe388",
+            "name": "Koepp Group",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?89447",
+            "score": 1
+          },
+          {
+            "id": "3b8cd41d-4407-45d6-a662-ef9a8e02bb1a",
+            "name": "Farrell - Franey",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?7812",
+            "score": 2
+          }
+        ],
+        "status": "PLANNED",
+        "isOngoing": true,
+        "plannedDate": 1665145922632,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "b3874c96-479a-4f46-9949-0c23999b2ba4",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "4af912c7-fe1b-4362-8545-429e5fd0d318",
+            "name": "Hegmann, Buckridge and Gottlieb",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?28382",
+            "score": 5
+          },
+          {
+            "id": "4e6c6677-4c71-4530-b43a-bce2c6af9fa9",
+            "name": "Roob, Mann and Beahan",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?21461",
+            "score": 4
+          }
+        ],
+        "status": "FINISHED",
+        "isOngoing": true,
+        "plannedDate": 1665145922632,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      }
+    ]
+  },
+  {
+    "id": "c8fdc63b-b27a-4962-a9bb-977dec2d92d8",
+    "name": "Cronin, Kilback and MacGyver",
+    "country": "Malawi",
+    "countryCode": "MW",
+    "isFavorite": true,
+    "matches": [
+      {
+        "id": "18210500-3821-4693-9e98-b2988ed216ad",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "098929c2-a1b3-44d1-befa-6d757182fb45",
+            "name": "Hackett - Lesch",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?21296",
+            "score": 0
+          },
+          {
+            "id": "f405fa41-4a61-48e0-9b09-23a521522261",
+            "name": "Marquardt, Ferry and Harber",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?9040",
+            "score": 5
+          }
+        ],
+        "status": "FINISHED",
+        "isOngoing": true,
+        "plannedDate": 1665145922632,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "4e28334b-be7c-4d42-9220-91bf1babf7c2",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "4ca44eff-c7a4-4932-b295-0ad98fee0204",
+            "name": "Christiansen - Legros",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?5719",
+            "score": 0
+          },
+          {
+            "id": "354820ce-0110-4df6-aefa-c94230c019ac",
+            "name": "Tremblay, Daugherty and Will",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?36384",
+            "score": 1
+          }
+        ],
+        "status": "CANCELLED",
+        "isOngoing": true,
+        "plannedDate": 1665145922633,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "d9b9db5e-27e4-49ef-9347-6a17bca6ef9e",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "322ae48b-2d6e-4dce-a04c-352b7b6662eb",
+            "name": "Cremin, Huels and Fahey",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?13461",
+            "score": 2
+          },
+          {
+            "id": "a2619587-23d3-4540-9633-d33e167b855a",
+            "name": "Hermann, Rowe and Gusikowski",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?76697",
+            "score": 3
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": true,
+        "plannedDate": 1665145922633,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "cbb5fb9d-a876-4cb9-b75a-f81a295573e0",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "e3e82df8-ac95-4aac-bebf-26b2f6be2666",
+            "name": "Fahey - Kub",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?60929",
+            "score": 0
+          },
+          {
+            "id": "2f4256c8-44c0-4281-9cdb-94867d0d13c8",
+            "name": "Hartmann, Sawayn and Bosco",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?5353",
+            "score": 5
+          }
+        ],
+        "status": "MOVED",
+        "isOngoing": false,
+        "plannedDate": 1665145922634,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "7fd317e1-26f2-4319-aaba-85b3de0d6df2",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "128acc56-4fb9-4c60-bd2c-dc855e346755",
+            "name": "Brown and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?77886",
+            "score": 4
+          },
+          {
+            "id": "9dafe97c-9baa-45e5-acce-9eed56ef3946",
+            "name": "Casper - Keebler",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?55310",
+            "score": 2
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": true,
+        "plannedDate": 1665145922634,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      }
+    ]
+  },
+  {
+    "id": "04928701-49ce-4e78-8866-7ead82ae422f",
+    "name": "Rath - Greenholt",
+    "country": "Zimbabwe",
+    "countryCode": "ZW",
+    "isFavorite": false,
+    "matches": [
+      {
+        "id": "60e1854f-bc51-4c55-9c3b-be5d6e58d4de",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "8d93f2c9-f41f-4dcf-8ef8-1ed885b628da",
+            "name": "Luettgen Group",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?27048",
+            "score": 5
+          },
+          {
+            "id": "d221e9f9-d766-429f-b9a8-f50b028fcaa3",
+            "name": "Lowe, Zemlak and McLaughlin",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?74194",
+            "score": 2
+          }
+        ],
+        "status": "CANCELLED",
+        "isOngoing": true,
+        "plannedDate": 1665145922634,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "30a1a968-578d-4ef5-8dac-f7e6aeacaf11",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "05db7325-b3f7-48d4-9ce1-57cc85bc8eed",
+            "name": "Schulist Inc",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?43655",
+            "score": 1
+          },
+          {
+            "id": "d9c9f010-304e-4732-b9e2-cc26ec3f6e42",
+            "name": "Krajcik - Padberg",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?43325",
+            "score": 5
+          }
+        ],
+        "status": "CANCELLED",
+        "isOngoing": false,
+        "plannedDate": 1665145922634,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "2f545f15-4d23-435d-ad36-b89ed7690ad9",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "adf9ba37-e1f8-480d-a6b0-d051055a9a3c",
+            "name": "MacGyver and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?68705",
+            "score": 0
+          },
+          {
+            "id": "50dfe2c4-ea40-408f-9054-7369fe1effab",
+            "name": "Aufderhar - Beer",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?59143",
+            "score": 4
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": true,
+        "plannedDate": 1665145922634,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "bd6d7c8a-2f66-4c28-b49b-3c3c08f63364",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "2f56eac6-c26f-4db7-b714-fe7a6753e5ab",
+            "name": "McCullough and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?14004",
+            "score": 1
+          },
+          {
+            "id": "a060fe5b-57f1-4ba4-8708-35ced299116e",
+            "name": "Stroman Group",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?99429",
+            "score": 1
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": false,
+        "plannedDate": 1665145922635,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "51f92a8d-472e-49b1-a773-01f270d7e53a",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "f03abc6b-9b81-4dc3-aa44-235b2bf691b8",
+            "name": "Hickle - Hessel",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?42583",
+            "score": 2
+          },
+          {
+            "id": "d0bd0c2d-496e-41c0-bb57-f4d8c72bb079",
+            "name": "Halvorson - Wuckert",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?50721",
+            "score": 4
+          }
+        ],
+        "status": "PLANNED",
+        "isOngoing": true,
+        "plannedDate": 1665145922635,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      }
+    ]
+  },
+  {
+    "id": "5dc709e4-7062-49a1-a2cf-f6a4917c0d4c",
+    "name": "Kertzmann, Kemmer and Satterfield",
+    "country": "Jordan",
+    "countryCode": "JO",
+    "isFavorite": false,
+    "matches": [
+      {
+        "id": "6261f6bf-22d9-4e5e-a11d-3f78b6cbe293",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "97d6e325-0015-4d32-9595-5e057be242f6",
+            "name": "Franecki - Torphy",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?43179",
+            "score": 0
+          },
+          {
+            "id": "5aa98e23-ceb9-4f93-9ea0-7d66c0e4cd43",
+            "name": "Toy, Botsford and Olson",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?90303",
+            "score": 1
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": false,
+        "plannedDate": 1665145922635,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "883db23b-0652-4747-b100-b07e57ebd6df",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "45f1fe90-a248-446f-b2a2-7fb0665c5e91",
+            "name": "Harber, Lueilwitz and Dach",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?5544",
+            "score": 5
+          },
+          {
+            "id": "bcf6df1e-8cb7-4fff-9aa7-2a56a70d141e",
+            "name": "Goyette - O'Reilly",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?12278",
+            "score": 4
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": true,
+        "plannedDate": 1665145922635,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "271afb2d-e8b7-4ff3-8ecb-3a8dad8f9628",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "fa23c36d-e120-46e3-b9de-7ac89c429ff6",
+            "name": "Feest, Harris and Herzog",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?77310",
+            "score": 5
+          },
+          {
+            "id": "f01085c8-72fc-434c-ab3e-8f965911fbae",
+            "name": "Reichert - MacGyver",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?70087",
+            "score": 4
+          }
+        ],
+        "status": "CANCELLED",
+        "isOngoing": true,
+        "plannedDate": 1665145922635,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "d2059176-2b8f-4b7e-bb08-409e1ad625ad",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "685b314d-10ba-4169-b6a3-77fe51fc7231",
+            "name": "Crist - Abbott",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?30602",
+            "score": 3
+          },
+          {
+            "id": "96c456a7-4644-4986-9042-96c44d98585e",
+            "name": "Mraz and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?95000",
+            "score": 0
+          }
+        ],
+        "status": "PLANNED",
+        "isOngoing": false,
+        "plannedDate": 1665145922635,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "4ee4ecf2-58df-4d46-947e-e8395e89a6d8",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "0cc8839c-afe8-44a5-bb84-0d4e245b4714",
+            "name": "Schulist, Mohr and Rosenbaum",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?53690",
+            "score": 3
+          },
+          {
+            "id": "b8334b8f-91c8-4210-9109-886d01c1e26b",
+            "name": "Konopelski, Waters and Becker",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?74897",
+            "score": 5
+          }
+        ],
+        "status": "MOVED",
+        "isOngoing": true,
+        "plannedDate": 1665145922636,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      }
+    ]
+  },
+  {
+    "id": "e478fd7f-2e45-4b3c-829b-f6c8c8d5cbac",
+    "name": "Konopelski Group",
+    "country": "Taiwan",
+    "countryCode": "TW",
+    "isFavorite": false,
+    "matches": [
+      {
+        "id": "cefaf9e7-5cbc-45d5-bf4f-81a7ac6d45b5",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "cfa51249-7154-4850-8cbc-1e20e7cde1f7",
+            "name": "DuBuque, Herzog and D'Amore",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?15680",
+            "score": 1
+          },
+          {
+            "id": "77d36960-a7ad-491f-a506-e0baf7e8697f",
+            "name": "Feeney Inc",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?50851",
+            "score": 5
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": false,
+        "plannedDate": 1665145922636,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "8f2f571f-a49d-4837-8518-b15277cbd28e",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "3cb0ca8d-ae82-48e5-b2a9-93b8d5cefffd",
+            "name": "Stehr, Hammes and Hermann",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?7818",
+            "score": 2
+          },
+          {
+            "id": "8f376eea-eea8-46fb-a3e0-91c626c4ed38",
+            "name": "Langosh - Runte",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?11595",
+            "score": 0
+          }
+        ],
+        "status": "FINISHED",
+        "isOngoing": true,
+        "plannedDate": 1665145922636,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "cb499350-140d-4642-ba2a-2495b2ce494e",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "33dceb4b-74a5-4bdf-83dc-da5766ac1ac2",
+            "name": "Gerlach - Oberbrunner",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?80558",
+            "score": 5
+          },
+          {
+            "id": "e16c9e72-3013-48ba-a858-d2c12d3dca0d",
+            "name": "Grant - Anderson",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?30524",
+            "score": 2
+          }
+        ],
+        "status": "FINISHED",
+        "isOngoing": true,
+        "plannedDate": 1665145922636,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "98165684-5a74-4b8e-801b-5a62cd138189",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "7d277cb1-aa65-4ddc-9280-a3131d94d173",
+            "name": "Bogisich Group",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?23930",
+            "score": 5
+          },
+          {
+            "id": "7dc0629e-33c1-4765-a3eb-0cf52163a026",
+            "name": "MacGyver, Abernathy and Collins",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?36998",
+            "score": 1
+          }
+        ],
+        "status": "MOVED",
+        "isOngoing": false,
+        "plannedDate": 1665145922636,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "ea661eec-a060-407f-8eaf-d8d0fbcba223",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "27185e12-49bd-4be2-8388-92549cc8fdc5",
+            "name": "Kuphal - Wunsch",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?24531",
+            "score": 5
+          },
+          {
+            "id": "5bb2e32b-2f9b-4a79-8688-4e79801f827b",
+            "name": "Wilderman - Hermiston",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?5296",
+            "score": 5
+          }
+        ],
+        "status": "CANCELLED",
+        "isOngoing": true,
+        "plannedDate": 1665145922636,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      }
+    ]
+  },
+  {
+    "id": "635e6176-7456-4556-80a5-846031a4e9bf",
+    "name": "Heller, O'Keefe and Gottlieb",
+    "country": "Senegal",
+    "countryCode": "SN",
+    "isFavorite": true,
+    "matches": [
+      {
+        "id": "7899c6bd-9b9a-477e-90a7-2d8bc2bb49f4",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "97a67656-54fd-4958-ad37-797b78d9be50",
+            "name": "Wyman - Bruen",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?2095",
+            "score": 4
+          },
+          {
+            "id": "3b5f4822-edbe-4620-8ce4-2a996efa4331",
+            "name": "O'Kon, Davis and Runte",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?91127",
+            "score": 2
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": false,
+        "plannedDate": 1665145922637,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "03693c30-c606-4188-ae3d-9eaf9862fdb4",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "0095d32d-5b49-4434-babb-f4e848dc1a01",
+            "name": "Terry - Sawayn",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?84226",
+            "score": 3
+          },
+          {
+            "id": "b3dae978-35ab-4d2d-afd0-17ffae552032",
+            "name": "Buckridge, Hayes and Bosco",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?20314",
+            "score": 2
+          }
+        ],
+        "status": "CANCELLED",
+        "isOngoing": true,
+        "plannedDate": 1665145922637,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "fb2426f4-a5ba-4ad0-b410-bc6fb6cb44b5",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "405b1317-5e9e-46f3-9b4e-10a8f2530ab6",
+            "name": "Hackett Group",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?57313",
+            "score": 2
+          },
+          {
+            "id": "741908cd-446d-4ba8-9bbf-e92ac0916ef6",
+            "name": "Graham and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?28923",
+            "score": 2
+          }
+        ],
+        "status": "PLANNED",
+        "isOngoing": false,
+        "plannedDate": 1665145922637,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "507a70dd-9d2f-424b-84dc-1a070b890025",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "c07de017-03eb-4abc-b675-ef464d46da81",
+            "name": "Beer - Hahn",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?71806",
+            "score": 3
+          },
+          {
+            "id": "8642a084-2f24-4930-b63e-af38feb4038e",
+            "name": "Friesen Inc",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?28105",
+            "score": 0
+          }
+        ],
+        "status": "MOVED",
+        "isOngoing": true,
+        "plannedDate": 1665145922638,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "f9df6aaa-546e-44ec-a31c-7a1bf472ed61",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "fa11637f-b882-457b-b757-42518356ea31",
+            "name": "Crona and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?89664",
+            "score": 3
+          },
+          {
+            "id": "b8471d71-19f2-4aae-96af-15f6f866319b",
+            "name": "Nitzsche - Spencer",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?29171",
+            "score": 4
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": true,
+        "plannedDate": 1665145922638,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      }
+    ]
+  },
+  {
+    "id": "ca51b6cc-c4a0-4c1c-ae79-94d2ea5517aa",
+    "name": "Cartwright - Steuber",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "isFavorite": false,
+    "matches": [
+      {
+        "id": "47b82e0d-3168-4d69-b334-96f2ff747f5e",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "67946db0-2945-4cf8-a9d4-6195b2637430",
+            "name": "Homenick, Ratke and Larkin",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?6908",
+            "score": 1
+          },
+          {
+            "id": "93d88ef5-98d4-4f74-b00c-df826ee4a652",
+            "name": "Morissette, Crona and Heidenreich",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?11935",
+            "score": 5
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": false,
+        "plannedDate": 1665145922638,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "3b869c2e-add9-4829-bde6-4e1787cf4422",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "62063c6a-7d74-4770-90ca-845fc536016b",
+            "name": "Nader, Bernhard and Erdman",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?69379",
+            "score": 2
+          },
+          {
+            "id": "5d030822-26d1-49f7-8328-8b0b88c9e1cd",
+            "name": "Greenholt - Zemlak",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?65248",
+            "score": 3
+          }
+        ],
+        "status": "PLANNED",
+        "isOngoing": true,
+        "plannedDate": 1665145922638,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "075eaa00-d727-4742-9641-55e31a5e23e7",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "c3f1faa9-3dcf-4c62-9298-865bb2c31123",
+            "name": "Corwin - D'Amore",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?1994",
+            "score": 3
+          },
+          {
+            "id": "4729436d-f4d4-4b4e-9a04-970f8790d062",
+            "name": "Swaniawski - Feest",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?15534",
+            "score": 0
+          }
+        ],
+        "status": "FINISHED",
+        "isOngoing": false,
+        "plannedDate": 1665145922638,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "718a3eb6-32d9-4981-a32a-84ed2a2c8a6e",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "ec602eb3-5a45-4f30-a68c-9bcc67302ec2",
+            "name": "Emmerich, Labadie and Weimann",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?98643",
+            "score": 3
+          },
+          {
+            "id": "2e8269a0-180f-4340-a889-b2489ec7422b",
+            "name": "Schultz, Kris and Rath",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?49247",
+            "score": 0
+          }
+        ],
+        "status": "PLANNED",
+        "isOngoing": false,
+        "plannedDate": 1665145922638,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "b87fcfbc-5a7d-43f3-a597-5cf01094efc7",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "83b26ef3-fe1b-4226-8232-059638a5967f",
+            "name": "Ullrich and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?29645",
+            "score": 0
+          },
+          {
+            "id": "79340398-a0c5-4fc1-917a-07d9ee429a42",
+            "name": "Ledner Inc",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?39144",
+            "score": 4
+          }
+        ],
+        "status": "FINISHED",
+        "isOngoing": true,
+        "plannedDate": 1665145922638,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      }
+    ]
+  },
+  {
+    "id": "9668ea70-e137-4bf0-b549-5d0e274aa7c2",
+    "name": "Pagac, Schinner and Gottlieb",
+    "country": "Malawi",
+    "countryCode": "MW",
+    "isFavorite": true,
+    "matches": [
+      {
+        "id": "417420e7-7cea-4f05-8879-7328238fa55e",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "bc81066f-54d4-4e34-8046-a63f71de088a",
+            "name": "Torp - Torp",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?8308",
+            "score": 1
+          },
+          {
+            "id": "1bc80ff1-872c-4571-b1b8-6158ea5ad711",
+            "name": "Grady, Hahn and Mosciski",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?25667",
+            "score": 0
+          }
+        ],
+        "status": "MOVED",
+        "isOngoing": false,
+        "plannedDate": 1665145922639,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "7db0fb0e-d78b-4333-9ce1-931fc127eaa0",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "16a4bfbe-60c2-45cd-b383-7d93496b46ff",
+            "name": "Mann - Becker",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?72312",
+            "score": 0
+          },
+          {
+            "id": "2d9d4525-c62a-464f-be4f-decb3bfed882",
+            "name": "Zemlak - Pagac",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?49889",
+            "score": 2
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": false,
+        "plannedDate": 1665145922639,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "1bb0a980-09d6-4c3d-aad9-3c38427032b3",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "bf678dfa-7bec-44e2-ba84-eb615c32e546",
+            "name": "Emard LLC",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?68833",
+            "score": 4
+          },
+          {
+            "id": "0ccc0f9b-dc97-45cb-a184-ebcad6b062ee",
+            "name": "Bartoletti - Feest",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?89080",
+            "score": 5
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": true,
+        "plannedDate": 1665145922639,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "e9f8e446-d31b-412d-ab85-1fe198f41065",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "ca5f499b-53b7-46af-8de5-5d6602bf8c0f",
+            "name": "Rogahn, Wyman and Kohler",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?17615",
+            "score": 5
+          },
+          {
+            "id": "77536751-70e5-43ee-a545-080aba5d0f85",
+            "name": "Little - Flatley",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?26923",
+            "score": 0
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": false,
+        "plannedDate": 1665145922639,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "acb659e1-ece9-4a9e-9444-ba80926d15d3",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "7d607698-a1eb-4cd4-ad0b-58b1bff4047c",
+            "name": "Windler Inc",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?30840",
+            "score": 0
+          },
+          {
+            "id": "d165d528-0dcb-47bf-9076-29eb8a0121cb",
+            "name": "Schiller - O'Connell",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?67134",
+            "score": 0
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": false,
+        "plannedDate": 1665145922639,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      }
+    ]
+  },
+  {
+    "id": "60de6626-f36a-45b4-91e8-ba07f1e72ba6",
+    "name": "Nitzsche - Waelchi",
+    "country": "Macao",
+    "countryCode": "MO",
+    "isFavorite": true,
+    "matches": [
+      {
+        "id": "d41831e6-0943-498e-bd8e-a425e939d8ed",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "3fabc691-d420-4a1a-9713-0748d0abb26a",
+            "name": "Hahn, Wintheiser and Price",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?28851",
+            "score": 4
+          },
+          {
+            "id": "d29e3b63-b252-4780-b6e4-690a13383321",
+            "name": "Stamm - Little",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?6923",
+            "score": 3
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": false,
+        "plannedDate": 1665145922639,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "46763c9d-d4bf-48b9-b075-3e5f420ba341",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "0b0b9b47-db28-4424-8ac7-d316a0704386",
+            "name": "Green and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?69687",
+            "score": 2
+          },
+          {
+            "id": "2926906d-f394-4d47-bbdc-e98c56220ef3",
+            "name": "Heller, Gibson and Schamberger",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?12789",
+            "score": 5
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": true,
+        "plannedDate": 1665145922640,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": false
+      },
+      {
+        "id": "e8e2451e-24df-48c8-91be-e6ca82f560e9",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "b66b9868-f733-4b01-808a-39fd33224dc1",
+            "name": "Mante LLC",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?25988",
+            "score": 0
+          },
+          {
+            "id": "b0923bd0-7d3a-4272-882e-7967bac8faca",
+            "name": "Baumbach and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?6202",
+            "score": 0
+          }
+        ],
+        "status": "FINISHED",
+        "isOngoing": true,
+        "plannedDate": 1665145922640,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "4a7f14cc-d72d-4b90-b821-1c03c4d4fa2c",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "1170d8fc-6db0-4dd0-9f54-0d337aea1b96",
+            "name": "Kunze and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?46406",
+            "score": 5
+          },
+          {
+            "id": "37a41cc4-28b8-4247-8503-9a4ceca91b04",
+            "name": "Gusikowski - Heaney",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?18881",
+            "score": 2
+          }
+        ],
+        "status": "FINISHING",
+        "isOngoing": false,
+        "plannedDate": 1665145922640,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "d03f1e1a-939b-49a6-8478-1e2479d512bd",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "e58fa8ce-3627-46ff-8d49-b3d3a9ae1951",
+            "name": "Lesch and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?51022",
+            "score": 0
+          },
+          {
+            "id": "b99a3a52-dcbc-4eef-a793-88a6138b8d5b",
+            "name": "Littel - Rice",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?19582",
+            "score": 0
+          }
+        ],
+        "status": "MOVED",
+        "isOngoing": true,
+        "plannedDate": 1665145922640,
+        "isFinalResultOnly": false,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      }
+    ]
+  },
+  {
+    "id": "d8f7d9ae-24d1-4405-9d34-46375b5cbdde",
+    "name": "Larson - Toy",
+    "country": "Czech Republic",
+    "countryCode": "CZ",
+    "isFavorite": true,
+    "matches": [
+      {
+        "id": "f59c9aea-1292-4a05-909f-aa3847bf03d6",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "71fd4d71-872b-4f8c-8317-3a85ce5de592",
+            "name": "Hettinger - Marks",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?1201",
+            "score": 5
+          },
+          {
+            "id": "4a961ef9-54b4-48e8-8683-f325ab61853c",
+            "name": "Donnelly, Becker and Muller",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?40043",
+            "score": 1
+          }
+        ],
+        "status": "BREAK",
+        "isOngoing": false,
+        "plannedDate": 1665145922640,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "c4d1ad85-f980-4952-b84e-a566ca46554e",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "79b334a3-0be9-4aec-9211-2dd58fc7c27d",
+            "name": "Glover - Kub",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?65252",
+            "score": 1
+          },
+          {
+            "id": "cdca4ba2-36f2-4852-b574-a121207fe350",
+            "name": "Waelchi, Lockman and Davis",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?53290",
+            "score": 3
+          }
+        ],
+        "status": "CANCELLED",
+        "isOngoing": true,
+        "plannedDate": 1665145922640,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "2207c7f8-be8f-42b0-8778-6b2dcd4bb189",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "48b64a46-edad-4b7a-a569-5e98d05f8c02",
+            "name": "Blick - Johnson",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?75764",
+            "score": 5
+          },
+          {
+            "id": "452aca4e-0447-42ed-9a71-16b499b20ab7",
+            "name": "Price and Sons",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?56270",
+            "score": 0
+          }
+        ],
+        "status": "CANCELLED",
+        "isOngoing": false,
+        "plannedDate": 1665145922640,
+        "isFinalResultOnly": true,
+        "isForeignStadium": true,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "1cca229d-64d8-41fd-8177-e7024c19949f",
+        "isFavorite": false,
+        "teams": [
+          {
+            "id": "7c1f6581-a55e-46a9-b678-59cd189203c0",
+            "name": "Hansen - Abshire",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?4472",
+            "score": 1
+          },
+          {
+            "id": "2903b271-95b9-4f30-9150-2f98b38798bf",
+            "name": "McLaughlin - O'Connell",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?85364",
+            "score": 3
+          }
+        ],
+        "status": "PLANNED",
+        "isOngoing": false,
+        "plannedDate": 1665145922641,
+        "isFinalResultOnly": true,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      },
+      {
+        "id": "a712802b-8166-4061-b09e-c5e93102d804",
+        "isFavorite": true,
+        "teams": [
+          {
+            "id": "97c769aa-0862-43d1-94c7-f08a90d0c0c2",
+            "name": "Schoen Inc",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?2252",
+            "score": 2
+          },
+          {
+            "id": "f08f59a7-2da8-44fd-89b2-ab23519f3179",
+            "name": "Okuneva Inc",
+            "logoUrl": "https://loremflickr.com/640/480/abstract?38408",
+            "score": 2
+          }
+        ],
+        "status": "FINISHED",
+        "isOngoing": false,
+        "plannedDate": 1665145922641,
+        "isFinalResultOnly": false,
+        "isForeignStadium": false,
+        "isNeutralStadium": true
+      }
+    ]
+  }
+]

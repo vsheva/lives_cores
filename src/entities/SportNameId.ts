@@ -1,4 +1,4 @@
-type SportName =
+type SportNameId =
   | "football"
   | "basketball"
   | "tenis"
@@ -6,4 +6,4 @@ type SportName =
   | "volleyball"
   | "handball";
 
-export default SportName;
+export default SportNameId;

@@ -1,18 +1,10 @@
-import type SportName from "@entities/SportName";
+import SportEvent from "./SportEvent";
 
 type Country = {
-  id: number;
   name: string;
+  code: string;
 };
 
-/* 
-  This type is associated with server response to get dynamic URL parts for country sport event
-  Result URL should look like this: '/{sportName}/{countryName}/{eventName}' for each event in a list of names
-*/
-export type CountrySportEventNames = {
-  sportName: SportName;
-  countryName: string;
-  sportEvents: string[];
-};
+export type CountrySportEvent = Pick<SportEvent, "id" | "name" | "isFavorite">;
 
 export default Country;

@@ -1,21 +1,26 @@
 import { Link } from "@mui/material";
 import React from "react";
 
-import type SportEvent from "@entities/SportEvent";
+import type { CountrySportEvent as CountrySportEventType } from "@entities/Country";
 import FavoriteCheckbox from "@components/Checkboxes/FavoriteCheckbox";
 import * as Styled from "./SportEvent.styled";
 
 type CountrySportEventProps = {
-  title: SportEvent["title"];
+  countryEvent: CountrySportEventType;
 };
 
-const CountrySportEvent: React.FC<CountrySportEventProps> = ({ title }) => {
+const CountrySportEvent: React.FC<CountrySportEventProps> = ({
+  countryEvent,
+}) => {
   return (
     <Styled.SportEvent>
       <Link href="#" sx={{ flex: 1 }}>
-        {title}
+        {countryEvent.name}
       </Link>
-      <FavoriteCheckbox sx={{ "*": { fontSize: "1.5rem" } }} />
+      <FavoriteCheckbox
+        sx={{ "*": { fontSize: "1.5rem" } }}
+        defaultChecked={countryEvent.isFavorite}
+      />
     </Styled.SportEvent>
   );
 };
