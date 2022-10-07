@@ -1,13 +1,4 @@
-import {
-  Box,
-  Button,
-  Container,
-  Tab,
-  Tabs,
-  Grid,
-  Typography,
-  Paper as MuiPaper,
-} from "@mui/material";
+import { Box, Button, Container, Tab, Tabs, Grid } from "@mui/material";
 import { Search, Person, Menu } from "@mui/icons-material";
 import styled from "styled-components";
 
@@ -93,51 +84,12 @@ export const MainSection = styled((props) => (
   margin-top: 0;
 `;
 
-export const CountriesSection = styled((props) => (
+export const AsideSection = styled((props) => (
   <Grid item xs={1.9} component="aside" {...props} />
 ))`
   padding-left: 0 !important;
 `;
 
-export const LivetableSection = styled((props) => (
-  <Grid item xs={8} {...props} />
-))`
+export const CenterSection = styled((props) => <Grid item xs={8} {...props} />)`
   margin-bottom: ${({ theme }) => theme.spacing(2)};
-`;
-
-export const LivetableSectionPaper = styled((props) => (
-  <Paper elevation={0} {...props} />
-))``;
-
-export const CountriesTitle = styled((props) => (
-  <Typography variant="overline" {...props} />
-))`
-  font-size: 0.9rem;
-  font-weight: 600;
-  margin-left: ${({ theme }) => theme.spacing(1)};
-
-  .MuiDivider-root {
-    margin: ${({ theme }) => theme.spacing(0, 0, 2, 1)};
-  }
-`;
-
-export const CountriesList = styled(Box)`
-  display: flex;
-  flex-direction: column;
-`;
-
-export const Paper = styled((props) => (
-  <MuiPaper component="section" {...props} />
-))``;
-
-export const FiltersGroup = styled(Box)`
-  display: flex;
-  gap: ${({ theme }) => theme.spacing(1)};
-`;
-
-export const SportEvents = styled(Box)`
-  margin-top: ${({ theme }) => theme.spacing(2)};
-  display: flex;
-  flex-direction: column;
-  gap: ${({ theme }) => theme.spacing(0.2)};
 `;
