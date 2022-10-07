@@ -10,6 +10,5 @@ export const getSportEvents = async (
   const { data } = await axios.get(
     `/api/sport-events/${sportName}/${date.toISOString()}`
   );
-  console.log(data);
   return data;
 };
