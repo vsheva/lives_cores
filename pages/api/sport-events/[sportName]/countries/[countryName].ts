@@ -1,10 +1,10 @@
-import { sportEvents } from "../index";
+import { eventsList } from "../index";
 
 export default function handler(req, res) {
   res
     .status(200)
     .json(
-      sportEvents
+      eventsList
         .filter(({ country }) => country === req.query.countryName)
         .map(({ id, name, isFavorite }) => ({ id, name, isFavorite }))
     );

@@ -2,7 +2,7 @@ import SportEvent from "@entities/SportEvent";
 import Country from "@entities/Country";
 
 type SportEvents = {
-  sportEvents: SportEvent[];
+  eventsList: SportEvent[];
   countries?: Country[];
 };
 

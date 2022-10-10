@@ -26,7 +26,7 @@ const generateSportEvents = (
       return {
         id: faker.datatype.uuid() as unknown as SportEvent["id"],
         name: faker.company.name(),
-        date: faker.helpers.arrayElement(datesRange),
+        date: +faker.helpers.arrayElement(datesRange),
         country,
         countryCode,
         isFavorite: faker.datatype.boolean(),

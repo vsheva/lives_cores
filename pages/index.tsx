@@ -1,42 +1,27 @@
 import type { NextPage } from "next";
-import { useEffect, useState } from "react";
 
-import type SportEvents from "@entities/SportEvents";
-import type SportNameId from "@entities/SportNameId";
-import * as SportEventsGateway from "@gateways/sport-events";
 import CountriesList from "@components/AsideList/Countries";
+import useSportEvents from "@common/hooks/useSportEvents";
+import SPORT_NAME_IDS from "@common/data/sportNameIds";
 import Livetable from "@components/Livetable";
 import Layout from "@components/Layout";
 
-const SPORT_NAME_ID: SportNameId = "football";
+const SPORT_NAME_ID = SPORT_NAME_IDS.football;
 
 const Home: NextPage = () => {
-  const [footballSportEvents, setFootballSportEvents] = useState<SportEvents>({
-    sportEvents: [],
-  } as SportEvents);
-  const [date, setDate] = useState<Date>(new Date());
-
-  useEffect(() => {
-    (async () => {
-      const sportEvents = await SportEventsGateway.getSportEvents(
-        SPORT_NAME_ID,
-        date
-      );
-      setFootballSportEvents(sportEvents);
-    })();
-  }, [date]);
+  const { sportEvents, date, setDate } = useSportEvents(SPORT_NAME_ID);
 
   return (
     <Layout
       aside={
         <CountriesList
-          countries={footballSportEvents.countries}
+          countries={sportEvents.countries}
           sportNameId={SPORT_NAME_ID}
         />
       }
     >
       <Livetable
-        sportEvents={footballSportEvents.sportEvents}
+        eventsList={sportEvents.eventsList}
         date={date}
         onDateChange={(newDate) => setDate(newDate)}
       />

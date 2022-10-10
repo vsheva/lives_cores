@@ -9,13 +9,13 @@ import Match from "@components/Match";
 import * as Styled from "./Livetable.styled";
 
 type LivetableProps = {
-  sportEvents: SportEvents["sportEvents"];
+  eventsList: SportEvents["eventsList"];
   date: Date;
   onDateChange: (newDate: Date) => void;
 };
 
 const Livetable: React.FC<LivetableProps> = ({
-  sportEvents,
+  eventsList,
   date,
   onDateChange,
 }) => {
@@ -34,7 +34,7 @@ const Livetable: React.FC<LivetableProps> = ({
         />
       </Styled.FiltersGroup>
       <Styled.SportEvents>
-        {sportEvents.map(({ matches, ...sportEvent }) => (
+        {eventsList.map(({ matches, ...sportEvent }) => (
           <SportEventAccordion
             key={sportEvent.id}
             sportEvent={sportEvent}

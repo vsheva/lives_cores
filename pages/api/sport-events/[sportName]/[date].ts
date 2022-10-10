@@ -1,12 +1,15 @@
 import { isSameDay, parseISO } from "date-fns";
 
-import { countries, sportEvents } from "./index";
+import type SportEvents from "@entities/SportEvents";
+import { countries, eventsList } from "./index";
 
 export default function handler(req, res) {
-  res.status(200).json({
+  const data: SportEvents = {
     countries,
-    sportEvents: sportEvents.filter(({ date }) =>
+    eventsList: eventsList.filter(({ date }) =>
       isSameDay(date, parseISO(req.query.date))
     ),
-  });
+  };
+
+  res.status(200).json(data);
 }
