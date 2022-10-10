@@ -36,7 +36,7 @@ export const StageOrTime = styled(Box)`
 `;
 
 const Logo = styled((props: ImageProps) => (
-  <Image width={13} height={13} {...props} />
+  <Image width={13} height={13} alt={props.alt} {...props} />
 ))``;
 
 export const HomeLogo = styled(Logo)`
