@@ -22,8 +22,6 @@ type LayoutProps = {
 const Layout: React.FC<LayoutProps> = ({ aside, children }) => {
   const { asPath } = useRouter();
 
-  console.info("Layout render");
-
   return (
     <>
       <Styled.Header>
