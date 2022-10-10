@@ -36,9 +36,11 @@ export const StageOrTime = styled(Box)`
   color: ${({ theme }) => theme.palette.text.secondary};
 `;
 
-const Logo = (props: ImageProps) => (
-  <Image width={16} height={16} alt={props.alt} {...props} />
-);
+const Logo = styled((props) => <img alt={props.alt} {...props} />)`
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+`;
 
 export const HomeLogo = styled(Logo)`
   grid-area: homeLogo;
