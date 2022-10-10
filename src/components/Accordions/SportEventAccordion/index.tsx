@@ -20,7 +20,7 @@ const SportEventAccordion: React.FC<CountryAccordionProps> = ({
   return (
     <Accordion {...props}>
       <Styled.AccordionSummary>
-        <FavoriteCheckbox />
+        <FavoriteCheckbox size="large" />
         <Styled.EventTitle>
           <Image
             src={`/images/flags/${sportEvent.countryCode?.toLowerCase()}.svg`}

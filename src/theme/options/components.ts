@@ -31,6 +31,15 @@ const components = {
       },
     },
   },
+  MuiSvgIcon: {
+    styleOverrides: {
+      root: {
+        "&.MuiSvgIcon-fontSizeLarge": {
+          fontSize: "1.75rem",
+        },
+      },
+    },
+  },
   MuiButton: {
     styleOverrides: {
       root: {

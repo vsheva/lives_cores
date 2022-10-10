@@ -9,7 +9,6 @@ import theme from "@theme";
 const FavoriteCheckbox = styled((props) => {
   return (
     <Checkbox
-      // TODO: Mangage icon sizes
       icon={<StarBorder sx={{ opacity: 0.5 }} />}
       checkedIcon={<Star htmlColor={theme.palette.common.yellow} />}
       onClick={(e) => {
