@@ -57,7 +57,10 @@ const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = ({
         <Styled.WeekDays>
           {weekDates.map((weekDate) => (
             <Styled.WeekDayButton
-              onClick={() => onChange(weekDate)}
+              onClick={() => {
+                onChange(weekDate);
+                handleClose();
+              }}
               active={isSameDay(weekDate, date)}
               key={+weekDate}
             >
