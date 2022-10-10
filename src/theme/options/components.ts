@@ -28,9 +28,6 @@ const components = {
         "&:hover": {
           backgroundColor: getRgba("#999", 0.1),
         },
-        "*": {
-          fontSize: "1.75rem",
-        },
       },
     },
   },

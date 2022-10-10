@@ -17,10 +17,7 @@ const CountrySportEvent: React.FC<CountrySportEventProps> = ({
       <Link href="#" sx={{ flex: 1 }}>
         {countryEvent.name}
       </Link>
-      <FavoriteCheckbox
-        sx={{ "*": { fontSize: "1.5rem" } }}
-        defaultChecked={countryEvent.isFavorite}
-      />
+      <FavoriteCheckbox defaultChecked={countryEvent.isFavorite} />
     </Styled.SportEvent>
   );
 };

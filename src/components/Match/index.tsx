@@ -16,7 +16,7 @@ const Match: React.FC<MatchProps> = ({ match }) => {
   return (
     <Styled.MatchGrid>
       <Styled.Check>
-        <FavoriteCheckbox />
+        <FavoriteCheckbox defaultChecked={match.isFavorite} />
       </Styled.Check>
       <Styled.StageOrTime>{match.status}</Styled.StageOrTime>
       <Styled.HomeLogo src={homeTeam.logoUrl} />
