@@ -36,6 +36,7 @@ export const StageOrTime = styled(Box)`
   color: ${({ theme }) => theme.palette.text.secondary};
 `;
 
+// TODO: Replace with next/image
 const Logo = styled((props) => <img alt={props.alt} {...props} />)`
   display: inline-block;
   width: 13px;
