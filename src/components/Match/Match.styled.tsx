@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Image, { ImageProps } from "next/future/image";
 import { Box } from "@mui/material";
 
 export const MatchGrid = styled(Box)`
@@ -34,12 +35,9 @@ export const StageOrTime = styled(Box)`
   color: ${({ theme }) => theme.palette.text.secondary};
 `;
 
-// TODO: Replace with next/image
-const Logo = styled((props) => <img alt={props.alt} {...props} />)`
-  display: inline-block;
-  width: 13px;
-  height: 13px;
-`;
+const Logo = styled((props: ImageProps) => (
+  <Image width={13} height={13} {...props} />
+))``;
 
 export const HomeLogo = styled(Logo)`
   grid-area: homeLogo;

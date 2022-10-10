@@ -19,8 +19,8 @@ const Match: React.FC<MatchProps> = ({ match }) => {
         <FavoriteCheckbox size="large" defaultChecked={match.isFavorite} />
       </Styled.Check>
       <Styled.StageOrTime>{match.status}</Styled.StageOrTime>
-      <Styled.HomeLogo src={homeTeam.logoUrl} />
-      <Styled.AwayLogo src={awayTeam.logoUrl} />
+      <Styled.HomeLogo alt="Home team" src={homeTeam.logoUrl} />
+      <Styled.AwayLogo alt="Away team" src={awayTeam.logoUrl} />
       <Styled.HomeParticipant>{homeTeam.name}</Styled.HomeParticipant>
       <Styled.AwayParticipant>{awayTeam.name}</Styled.AwayParticipant>
       <Styled.HomeScore>{homeTeam.score || "-"}</Styled.HomeScore>

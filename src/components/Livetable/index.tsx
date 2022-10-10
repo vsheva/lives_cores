@@ -19,7 +19,7 @@ const Livetable: React.FC<LivetableProps> = ({ sportNameId }) => {
   return (
     <Styled.Paper>
       <Styled.FiltersGroup>
-        <FilterButton active>Всі</FilterButton>
+        <FilterButton $active>Всі</FilterButton>
         <FilterButton>Live</FilterButton>
         <FilterButton>Коефіцієнти</FilterButton>
         <FilterButton>Завершені</FilterButton>

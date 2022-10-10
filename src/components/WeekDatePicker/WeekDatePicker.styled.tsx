@@ -1,5 +1,10 @@
 import { KeyboardArrowLeft, KeyboardArrowRight } from "@mui/icons-material";
-import { Box, Button as MuiButton, Popover as MuiPopover } from "@mui/material";
+import {
+  Box,
+  Button as MuiButton,
+  ButtonProps,
+  Popover as MuiPopover,
+} from "@mui/material";
 import styled, { css } from "styled-components";
 import theme from "@theme";
 
@@ -72,13 +77,17 @@ export const WeekDays = styled(Box)`
   gap: ${({ theme }) => theme.spacing(0.2)};
 `;
 
-export const WeekDayButton = styled((props) => (
-  <MuiButton
-    color={props.active ? "primary" : "inherit"}
-    variant={props.active ? "contained" : "text"}
-    {...props}
-  />
-))<{ active: boolean }>`
+type WeekDayButtonProps = { active?: boolean };
+
+export const WeekDayButton = styled(
+  ({ active, ...props }: ButtonProps & WeekDayButtonProps) => (
+    <MuiButton
+      color={active ? "primary" : "inherit"}
+      variant={active ? "contained" : "text"}
+      {...props}
+    />
+  )
+)<WeekDayButtonProps>`
   flex: ${({ theme }) => theme.spacing(1)};
   padding: 4px 24px;
   font-weight: ${(props) => (props.active ? 600 : 400)};
