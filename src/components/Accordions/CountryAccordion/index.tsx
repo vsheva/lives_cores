@@ -2,16 +2,20 @@ import type { AccordionProps } from "@mui/material";
 import React from "react";
 import { AccordionDetails } from "@mui/material";
 
+import type { CountrySportEvent as CountrySportEventType } from "@entities/Country";
+import CountriesListSkeleton from "./CountriesListSkeleton";
+import CountrySportEvent from "./SportEvent";
+
 import * as Styled from "./CountryAccordion.styled";
 
 type CountryAccordionProps = {
-  countryName: string;
-  children: React.ReactNode;
-} & AccordionProps;
+  countryName: React.ReactNode;
+  sportEvents: CountrySportEventType[];
+} & Omit<AccordionProps, "children">;
 
 const CountryAccordion: React.FC<CountryAccordionProps> = ({
   countryName,
-  children,
+  sportEvents,
   ...props
 }) => {
   return (
@@ -19,7 +23,18 @@ const CountryAccordion: React.FC<CountryAccordionProps> = ({
       <Styled.AccordionSummary>
         <Styled.CountryTitle>{countryName}</Styled.CountryTitle>
       </Styled.AccordionSummary>
-      <AccordionDetails>{children}</AccordionDetails>
+      <AccordionDetails>
+        {sportEvents.length > 0 ? (
+          sportEvents.map((countryEvent) => (
+            <CountrySportEvent
+              key={countryEvent.id}
+              countryEvent={countryEvent}
+            />
+          ))
+        ) : (
+          <CountriesListSkeleton />
+        )}
+      </AccordionDetails>
     </Styled.Accordion>
   );
 };

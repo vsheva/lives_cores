@@ -21,6 +21,8 @@ type LayoutProps = {
 const Layout: React.FC<LayoutProps> = ({ aside, children }) => {
   const { asPath } = useRouter();
 
+  console.info("Layout render");
+
   return (
     <>
       <Styled.Header>
@@ -77,4 +79,4 @@ const Layout: React.FC<LayoutProps> = ({ aside, children }) => {
   );
 };
 
-export default Layout;
+export default React.memo(Layout);

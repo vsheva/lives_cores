@@ -3,8 +3,6 @@ import React, { useEffect, useState } from "react";
 import type { CountrySportEvent as CountrySportEventType } from "@entities/Country";
 import type SportNameId from "@entities/SportNameId";
 import type Country from "@entities/Country";
-import CountriesListSkeleton from "@components/Accordions/CountryAccordion/CountriesListSkeleton";
-import CountrySportEvent from "@components/Accordions/CountryAccordion/SportEvent";
 import CountryAccordion from "@components/Accordions/CountryAccordion";
 import * as CountriesGateway from "@gateways/sport-events/countries";
 
@@ -33,25 +31,16 @@ const DataCountryAccordion: React.FC<DataCountryAccordionProps> = ({
         setCountrySportEvents(countryEvents);
       })();
     }
-  }, [expanded]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [expanded, country, sportNameId]);
 
   return (
     <CountryAccordion
       countryName={country.name}
+      sportEvents={countrySportEvents}
       expanded={expanded}
       onChange={(_, expanded) => setExpanded(expanded)}
-    >
-      {countrySportEvents.length > 0 ? (
-        countrySportEvents.map((countryEvent) => (
-          <CountrySportEvent
-            key={countryEvent.id}
-            countryEvent={countryEvent}
-          />
-        ))
-      ) : (
-        <CountriesListSkeleton />
-      )}
-    </CountryAccordion>
+    />
   );
 };
 
