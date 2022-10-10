@@ -56,7 +56,15 @@ const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = ({
       >
         <Button
           color="inherit"
-          style={{ borderRadius: 0, padding: 0, height: 28, width: 30 }}
+          style={{
+            borderRadius: 0,
+            padding: 0,
+            height: 28,
+            width: 30,
+            visibility: isSameDay(date, weekDates[0]) ? "hidden" : "visible",
+            pointerEvents: isSameDay(date, weekDates[0]) ? "none" : "all",
+          }}
+          onClick={() => onChange(subDays(date, 1))}
         >
           <KeyboardArrowLeft sx={{ opacity: 0.5 }} />
         </Button>
@@ -81,7 +89,19 @@ const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = ({
         </Button>
         <Button
           color="inherit"
-          style={{ borderRadius: 0, padding: 0, height: 28, width: 30 }}
+          style={{
+            borderRadius: 0,
+            padding: 0,
+            height: 28,
+            width: 30,
+            visibility: isSameDay(date, weekDates[weekDates.length - 1])
+              ? "hidden"
+              : "visible",
+            pointerEvents: isSameDay(date, weekDates[weekDates.length - 1])
+              ? "none"
+              : "all",
+          }}
+          onClick={() => onChange(addDays(date, 1))}
         >
           <KeyboardArrowRight sx={{ opacity: 0.5 }} />
         </Button>
