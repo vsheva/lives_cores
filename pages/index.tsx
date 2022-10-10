@@ -11,6 +11,7 @@ const SPORT_NAME_ID = SPORT_NAME_IDS.football;
 const Home: NextPage = () => {
   const { sportEvents, date, setDate } = useSportEvents(SPORT_NAME_ID);
 
+  // TODO: Divide countries and sport events requests to avoid rerenders
   return (
     <Layout
       aside={
