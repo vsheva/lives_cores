@@ -11,6 +11,7 @@ import { useRouter } from "next/router";
 
 import { ACTIVE_TABS } from "@common/data/navbar";
 import Logo from "public/images/logo.svg";
+
 import * as Styled from "./Layout.styled";
 
 type LayoutProps = {
@@ -79,4 +80,4 @@ const Layout: React.FC<LayoutProps> = ({ aside, children }) => {
   );
 };
 
-export default React.memo(Layout);
+export default Layout;

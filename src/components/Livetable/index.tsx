@@ -1,24 +1,21 @@
 import React from "react";
 
-import type SportEvents from "@entities/SportEvents";
+import type SportNameId from "@entities/SportNameId";
 import SportEventAccordion from "@components/Accordions/SportEventAccordion";
 import FilterButton from "@components/Buttons/FilterButton";
+import useSportEvents from "@common/hooks/useSportEvents";
 import WeekDatePicker from "@components/WeekDatePicker";
 import Match from "@components/Match";
 
 import * as Styled from "./Livetable.styled";
 
 type LivetableProps = {
-  eventsList: SportEvents["eventsList"];
-  date: Date;
-  onDateChange: (newDate: Date) => void;
+  sportNameId: SportNameId;
 };
 
-const Livetable: React.FC<LivetableProps> = ({
-  eventsList,
-  date,
-  onDateChange,
-}) => {
+const Livetable: React.FC<LivetableProps> = ({ sportNameId }) => {
+  const { sportEvents, date, setDate } = useSportEvents(sportNameId);
+
   return (
     <Styled.Paper>
       <Styled.FiltersGroup>
@@ -29,12 +26,12 @@ const Livetable: React.FC<LivetableProps> = ({
         <FilterButton>Заплановані</FilterButton>
         <WeekDatePicker
           date={date}
-          onChange={onDateChange}
+          onChange={setDate}
           style={{ marginLeft: "auto" }}
         />
       </Styled.FiltersGroup>
       <Styled.SportEvents>
-        {eventsList.map(({ matches, ...sportEvent }) => (
+        {sportEvents.map(({ matches, ...sportEvent }) => (
           <SportEventAccordion
             key={sportEvent.id}
             sportEvent={sportEvent}

@@ -1,14 +1,12 @@
 import { useEffect, useState } from "react";
 
 import type SportNameId from "@entities/SportNameId";
-import type SportEvents from "@entities/SportEvents";
+import type SportEvent from "@entities/SportEvent";
 import * as SportEventsGateway from "@gateways/sport-events";
 
 const useSportEvents = (sportNameId: SportNameId) => {
   const [date, setDate] = useState<Date>(new Date());
-  const [sportEvents, setSportEvents] = useState<SportEvents>({
-    eventsList: [],
-  });
+  const [sportEvents, setSportEvents] = useState<SportEvent[]>([]);
 
   useEffect(() => {
     (async () => {
