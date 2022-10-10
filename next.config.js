@@ -18,6 +18,10 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
+  images: {
+    // TODO: Remove this domain after mock data removed
+    domains: ["loremflickr.com"],
+  },
 };
 
 module.exports = withTM(nextConfig);
