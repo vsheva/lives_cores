@@ -1,7 +1,5 @@
-import type { ImageProps } from "next/image";
 import styled from "styled-components";
 import { Box } from "@mui/material";
-import Image from "next/image";
 
 export const MatchGrid = styled(Box)`
   display: grid;
