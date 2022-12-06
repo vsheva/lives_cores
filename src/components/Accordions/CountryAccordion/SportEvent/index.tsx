@@ -1,17 +1,15 @@
-import { Link } from "@mui/material";
-import React from "react";
+import { Link } from '@mui/material';
+import React from 'react';
 
-import type { CountrySportEvent as CountrySportEventType } from "@entities/Country";
-import FavoriteCheckbox from "@components/Checkboxes/FavoriteCheckbox";
-import * as Styled from "./SportEvent.styled";
+import type { CountrySportEvent as CountrySportEventType } from '@entities/Country';
+import FavoriteCheckbox from '@components/Checkboxes/FavoriteCheckbox';
+import * as Styled from './SportEvent.styled';
 
 type CountrySportEventProps = {
   countryEvent: CountrySportEventType;
 };
 
-const CountrySportEvent: React.FC<CountrySportEventProps> = ({
-  countryEvent,
-}) => {
+const CountrySportEvent: React.FC<CountrySportEventProps> = ({ countryEvent }) => {
   return (
     <Styled.SportEvent>
       <Link href="#" sx={{ flex: 1 }}>

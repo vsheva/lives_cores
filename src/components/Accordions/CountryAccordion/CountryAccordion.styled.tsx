@@ -2,21 +2,20 @@ import {
   Typography,
   Accordion as MuiAccordion,
   AccordionSummary as MuiAccordionSummary,
-} from "@mui/material";
-import { ArrowDropDown } from "@mui/icons-material";
-import styled from "styled-components";
+} from '@mui/material';
+import { ArrowDropDown } from '@mui/icons-material';
+import styled from 'styled-components';
 
-import { getRgba } from "@common/utils/palette";
+import { getRgba } from '@common/utils/palette';
 
 export const Accordion = styled(MuiAccordion)`
   .MuiAccordionDetails-root {
     margin: ${({ theme }) => theme.spacing(0, 0, 1, 1)};
-    border-bottom: 1px solid
-      ${({ theme }) => getRgba(theme.palette.secondary.dark, 0.06)};
+    border-bottom: 1px solid ${({ theme }) => getRgba(theme.palette.secondary.dark, 0.06)};
   }
 `;
 
-export const AccordionSummary = styled((props) => (
+export const AccordionSummary = styled(props => (
   <MuiAccordionSummary expandIcon={<ArrowDropDown />} {...props} />
 ))`
   padding-right: ${({ theme }) => theme.spacing(0.5)};
@@ -38,13 +37,11 @@ export const AccordionSummary = styled((props) => (
       opacity: 1;
     }
 
-    background-color: ${({ theme }) =>
-      `${getRgba(theme.palette.support.light, 0.3)}`};
+    background-color: ${({ theme }) => `${getRgba(theme.palette.support.light, 0.3)}`};
   }
 
   &:hover {
-    background-color: ${({ theme }) =>
-      `${getRgba(theme.palette.support.light, 0.3)}`};
+    background-color: ${({ theme }) => `${getRgba(theme.palette.support.light, 0.3)}`};
   }
 
   &:hover .MuiAccordionSummary-expandIconWrapper {
@@ -52,7 +49,7 @@ export const AccordionSummary = styled((props) => (
   }
 `;
 
-export const CountryTitle = styled((props) => (
+export const CountryTitle = styled(props => (
   <Typography variant="subtitle1" component="span" {...props} />
 ))`
   text-transform: none;

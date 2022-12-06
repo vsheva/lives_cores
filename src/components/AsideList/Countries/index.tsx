@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 
-import type Country from "@entities/Country";
-import DataCountryAccordion from "@components/Accordions/CountryAccordion/DataCountryAccordion";
-import type SportNameId from "@entities/SportNameId";
-import AsideList from "@components/AsideList";
-import * as CountriesGateway from "@gateways/sport-events/countries";
+import type Country from '@entities/Country';
+import DataCountryAccordion from '@components/Accordions/CountryAccordion/DataCountryAccordion';
+import type SportNameId from '@entities/SportNameId';
+import AsideList from '@components/AsideList';
+import * as CountriesGateway from '@gateways/sport-events/countries';
 
 type CountriesListProps = {
   sportNameId: SportNameId;
@@ -23,12 +23,8 @@ const CountriesList: React.FC<CountriesListProps> = ({ sportNameId }) => {
   return (
     countries && (
       <AsideList title="Країни">
-        {countries.map((country) => (
-          <DataCountryAccordion
-            key={country.name}
-            country={country}
-            sportNameId={sportNameId}
-          />
+        {countries.map(country => (
+          <DataCountryAccordion key={country.name} country={country} sportNameId={sportNameId} />
         ))}
       </AsideList>
     )

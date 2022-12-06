@@ -1,14 +1,14 @@
-import styled from "styled-components";
-import Image, { ImageProps } from "next/future/image";
-import { Box } from "@mui/material";
+import styled from 'styled-components';
+import Image, { ImageProps } from 'next/future/image';
+import { Box } from '@mui/material';
 
 export const MatchGrid = styled(Box)`
   display: grid;
   align-items: center;
   grid-template:
-    " check       dropdown                 stageOrTime homeLogo             homeParticipant homeScore homePart1 homePart2 iconStr iconInf iconTv iconStd liveIcon"
+    ' check       dropdown                 stageOrTime homeLogo             homeParticipant homeScore homePart1 homePart2 iconStr iconInf iconTv iconStd liveIcon'
     minmax(23px, auto)
-    " check       dropdown                 stageOrTime awayLogo             awayParticipant awayScore awayPart1 awayPart2 iconStr iconInf iconTv iconStd liveIcon"
+    ' check       dropdown                 stageOrTime awayLogo             awayParticipant awayScore awayPart1 awayPart2 iconStr iconInf iconTv iconStd liveIcon'
     minmax(23px, auto) / max-content 0px 90px 24px 1fr 34px 34px 34px 28px 24px
     24px 38px 31px;
   position: relative;
@@ -16,7 +16,7 @@ export const MatchGrid = styled(Box)`
   border-bottom: ${({ theme }) => `1px solid ${theme.palette.support.main}`};
 
   &:before {
-    content: "";
+    content: '';
     background: ${({ theme }) => theme.palette.support.main};
     height: calc(100% - 12px);
     position: absolute;

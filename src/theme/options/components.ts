@@ -1,18 +1,18 @@
-import { getRgba } from "@common/utils/palette";
+import { getRgba } from '@common/utils/palette';
 
 const components = {
   MuiTouchRipple: {
     styleOverrides: {
       root: {
-        backgroundColor: "#eee",
-        color: "#eee",
+        backgroundColor: '#eee',
+        color: '#eee',
       },
     },
   },
   MuiInputBase: {
     styleOverrides: {
       root: {
-        ".MuiInputBase-input": {
+        '.MuiInputBase-input': {
           padding: 8,
         },
       },
@@ -22,11 +22,11 @@ const components = {
     styleOverrides: {
       root: {
         padding: 4,
-        "&.Mui-checked": {
-          color: "#eee",
+        '&.Mui-checked': {
+          color: '#eee',
         },
-        "&:hover": {
-          backgroundColor: getRgba("#999", 0.1),
+        '&:hover': {
+          backgroundColor: getRgba('#999', 0.1),
         },
       },
     },
@@ -34,8 +34,8 @@ const components = {
   MuiSvgIcon: {
     styleOverrides: {
       root: {
-        "&.MuiSvgIcon-fontSizeLarge": {
-          fontSize: "1.75rem",
+        '&.MuiSvgIcon-fontSizeLarge': {
+          fontSize: '1.75rem',
         },
       },
     },
@@ -44,12 +44,12 @@ const components = {
     styleOverrides: {
       root: {
         borderRadius: 8,
-        boxShadow: "none",
-        padding: "5px 14px",
-        minWidth: "auto",
-        height: "fit-content",
-        "&:hover": {
-          boxShadow: "none",
+        boxShadow: 'none',
+        padding: '5px 14px',
+        minWidth: 'auto',
+        height: 'fit-content',
+        '&:hover': {
+          boxShadow: 'none',
         },
       },
     },
@@ -59,10 +59,10 @@ const components = {
       root: {
         minHeight: 0,
         height: 48,
-        ".MuiTabs-flexContainer": {
+        '.MuiTabs-flexContainer': {
           gap: 24,
         },
-        ".MuiTabs-indicator": {
+        '.MuiTabs-indicator': {
           height: 4,
         },
       },
@@ -80,14 +80,14 @@ const components = {
   MuiAccordion: {
     styleOverrides: {
       root: {
-        boxShadow: "none",
+        boxShadow: 'none',
         border: 0,
         borderRadius: 8,
         padding: 0,
-        "&:before": {
-          display: "none",
+        '&:before': {
+          display: 'none',
         },
-        background: "transparent",
+        background: 'transparent',
       },
     },
     defaultProps: { disableGutters: true },
@@ -95,20 +95,20 @@ const components = {
   MuiAccordionSummary: {
     styleOverrides: {
       root: {
-        padding: "0 8px",
+        padding: '0 8px',
         minHeight: 28,
-        ".MuiAccordionSummary-content": {
+        '.MuiAccordionSummary-content': {
           margin: 0,
         },
         borderRadius: 8,
-        backgroundColor: "#eee",
+        backgroundColor: '#eee',
       },
     },
   },
   MuiAccordionDetails: {
     styleOverrides: {
       root: {
-        padding: "0 0 8px 0",
+        padding: '0 0 8px 0',
       },
     },
   },
@@ -124,10 +124,10 @@ const components = {
   MuiLink: {
     styleOverrides: {
       root: {
-        textDecoration: "none",
-        color: "#555e61",
-        "&:hover": {
-          color: "#00141e",
+        textDecoration: 'none',
+        color: '#555e61',
+        '&:hover': {
+          color: '#00141e',
         },
       },
     },
@@ -135,7 +135,7 @@ const components = {
   MuiGrid: {
     styleOverrides: {
       root: {
-        "&.MuiGrid-container": {
+        '&.MuiGrid-container': {
           margin: 0,
         },
       },

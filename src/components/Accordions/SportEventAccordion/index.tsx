@@ -1,14 +1,14 @@
-import type { AccordionProps } from "@mui/material";
-import React from "react";
-import { Accordion, AccordionDetails } from "@mui/material";
-import Image from "next/image";
+import type { AccordionProps } from '@mui/material';
+import React from 'react';
+import { Accordion, AccordionDetails } from '@mui/material';
+import Image from 'next/image';
 
-import type SportEvent from "@entities/SportEvent";
-import FavoriteCheckbox from "@components/Checkboxes/FavoriteCheckbox";
-import * as Styled from "./SportEventAccordion.styled";
+import type SportEvent from '@entities/SportEvent';
+import FavoriteCheckbox from '@components/Checkboxes/FavoriteCheckbox';
+import * as Styled from './SportEventAccordion.styled';
 
 type CountryAccordionProps = {
-  sportEvent: Omit<SportEvent, "matches">;
+  sportEvent: Omit<SportEvent, 'matches'>;
   children: React.ReactNode;
 } & AccordionProps;
 

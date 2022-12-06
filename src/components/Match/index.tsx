@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import type MatchType from "@entities/Match";
-import FavoriteCheckbox from "@components/Checkboxes/FavoriteCheckbox";
-import { formatPart } from "@common/utils/match";
+import type MatchType from '@entities/Match';
+import FavoriteCheckbox from '@components/Checkboxes/FavoriteCheckbox';
+import { formatPart } from '@common/utils/match';
 
-import * as Styled from "./Match.styled";
+import * as Styled from './Match.styled';
 
 type MatchProps = {
   match: MatchType;
@@ -23,8 +23,8 @@ const Match: React.FC<MatchProps> = ({ match }) => {
       <Styled.AwayLogo alt="Away team" src={awayTeam.logoUrl} />
       <Styled.HomeParticipant>{homeTeam.name}</Styled.HomeParticipant>
       <Styled.AwayParticipant>{awayTeam.name}</Styled.AwayParticipant>
-      <Styled.HomeScore>{homeTeam.score || "-"}</Styled.HomeScore>
-      <Styled.AwayScore>{awayTeam.score || "-"}</Styled.AwayScore>
+      <Styled.HomeScore>{homeTeam.score || '-'}</Styled.HomeScore>
+      <Styled.AwayScore>{awayTeam.score || '-'}</Styled.AwayScore>
       <Styled.HomePart>{formatPart(homeTeam.part)}</Styled.HomePart>
       <Styled.AwayPart>{formatPart(awayTeam.part)}</Styled.AwayPart>
     </Styled.MatchGrid>

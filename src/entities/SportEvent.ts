@@ -1,4 +1,4 @@
-import type Match from "@entities/Match";
+import type Match from '@entities/Match';
 
 type SportEvent = {
   id: number;

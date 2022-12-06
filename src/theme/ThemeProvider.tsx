@@ -1,10 +1,10 @@
-import type { FC, ReactNode } from "react";
-import type { Theme } from "@mui/material";
-import { ThemeProvider as StyledComponentProvider } from "styled-components";
-import { ThemeProvider as MuiThemeProvider } from "@mui/material";
-import { CacheProvider, EmotionCache } from "@emotion/react";
+import type { FC, ReactNode } from 'react';
+import type { Theme } from '@mui/material';
+import { ThemeProvider as StyledComponentProvider } from 'styled-components';
+import { ThemeProvider as MuiThemeProvider } from '@mui/material';
+import { CacheProvider, EmotionCache } from '@emotion/react';
 
-import GlobalStyle from "./GlobalStyle";
+import GlobalStyle from './GlobalStyle';
 
 type ThemeProviderProps = {
   children: ReactNode;
@@ -12,11 +12,7 @@ type ThemeProviderProps = {
   emotionCache: EmotionCache;
 };
 
-const ThemeProvider: FC<ThemeProviderProps> = ({
-  children,
-  theme,
-  emotionCache,
-}) => {
+const ThemeProvider: FC<ThemeProviderProps> = ({ children, theme, emotionCache }) => {
   return (
     <CacheProvider value={emotionCache}>
       <MuiThemeProvider theme={theme}>

@@ -1,7 +1,7 @@
-import React from "react";
-import { Divider } from "@mui/material";
+import React from 'react';
+import { Divider } from '@mui/material';
 
-import * as Styled from "./AsideList.styled";
+import * as Styled from './AsideList.styled';
 
 type AsideListProps = {
   title: React.ReactNode;

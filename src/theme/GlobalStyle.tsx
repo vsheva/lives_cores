@@ -1,5 +1,5 @@
-import type { Theme } from "@mui/system";
-import { createGlobalStyle, ThemeProps } from "styled-components";
+import type { Theme } from '@mui/system';
+import { createGlobalStyle, ThemeProps } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle<ThemeProps<Theme>>`
   html,
@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle<ThemeProps<Theme>>`
   }
 
   body {
-    background: ${(props) => props.theme.palette.background.default};
+    background: ${props => props.theme.palette.background.default};
   }
 
   button, input, optgroup, select, textarea {

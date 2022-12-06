@@ -1,11 +1,8 @@
-import {
-  Typography,
-  AccordionSummary as MuiAccordionSummary,
-} from "@mui/material";
-import { ExpandMore } from "@mui/icons-material";
-import styled from "styled-components";
+import { Typography, AccordionSummary as MuiAccordionSummary } from '@mui/material';
+import { ExpandMore } from '@mui/icons-material';
+import styled from 'styled-components';
 
-export const AccordionSummary = styled((props) => (
+export const AccordionSummary = styled(props => (
   <MuiAccordionSummary expandIcon={<ExpandMore />} {...props} />
 ))`
   padding-left: 0;
@@ -17,7 +14,7 @@ export const AccordionSummary = styled((props) => (
   }
 `;
 
-export const EventTitle = styled((props) => (
+export const EventTitle = styled(props => (
   <Typography variant="subtitle1" component="span" {...props} />
 ))`
   display: flex;

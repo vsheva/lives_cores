@@ -1,8 +1,8 @@
-import { Box, Button, Container, Tab, Tabs, Grid } from "@mui/material";
-import { Search, Person, Menu } from "@mui/icons-material";
-import styled from "styled-components";
+import { Box, Button, Container, Tab, Tabs, Grid } from '@mui/material';
+import { Search, Person, Menu } from '@mui/icons-material';
+import styled from 'styled-components';
 
-export const Header = styled((props) => <Box component="header" {...props} />)`
+export const Header = styled(props => <Box component="header" {...props} />)`
   background-color: ${({ theme }) => theme.palette.secondary.main};
 `;
 
@@ -14,15 +14,13 @@ export const HeaderContent = styled(Container)`
   justify-content: space-between;
 `;
 
-export const Navbar = styled((props) => <Box component="nav" {...props} />)`
+export const Navbar = styled(props => <Box component="nav" {...props} />)`
   background-color: ${({ theme }) => theme.palette.secondary.main};
 `;
 
 export const NavbarContent = styled(Container)``;
 
-export const NavTabs = styled((props) => (
-  <Tabs indicatorColor="primary" {...props} />
-))`
+export const NavTabs = styled(props => <Tabs indicatorColor="primary" {...props} />)`
   .MuiTab-root {
     color: ${({ theme }) => theme.palette.text.disabled};
   }
@@ -32,9 +30,7 @@ export const NavTabs = styled((props) => (
   }
 `;
 
-export const NavTab = styled((props) => (
-  <Tab iconPosition="start" disableRipple {...props} />
-))``;
+export const NavTab = styled(props => <Tab iconPosition="start" disableRipple {...props} />)``;
 
 export const HeaderButtons = styled(Box)`
   display: flex;
@@ -56,7 +52,7 @@ const HeaderIconButton = styled(HeaderButton)`
   padding: ${({ theme }) => theme.spacing(1)};
 `;
 
-export const SearchButton = styled((props) => (
+export const SearchButton = styled(props => (
   <HeaderIconButton {...props}>
     <Search />
   </HeaderIconButton>
@@ -70,13 +66,13 @@ export const LoginButton = styled(({ children, ...props }) => (
   gap: ${({ theme }) => theme.spacing(1)};
 `;
 
-export const MenuButton = styled((props) => (
+export const MenuButton = styled(props => (
   <HeaderIconButton {...props}>
     <Menu />
   </HeaderIconButton>
 ))``;
 
-export const MainSection = styled((props) => (
+export const MainSection = styled(props => (
   <Container component="main">
     <Grid container spacing={2} {...props} />
   </Container>
@@ -84,12 +80,10 @@ export const MainSection = styled((props) => (
   margin-top: 0;
 `;
 
-export const AsideSection = styled((props) => (
-  <Grid item xs={1.9} component="aside" {...props} />
-))`
+export const AsideSection = styled(props => <Grid item xs={1.9} component="aside" {...props} />)`
   padding-left: 0 !important;
 `;
 
-export const CenterSection = styled((props) => <Grid item xs={8} {...props} />)`
+export const CenterSection = styled(props => <Grid item xs={8} {...props} />)`
   margin-bottom: ${({ theme }) => theme.spacing(2)};
 `;

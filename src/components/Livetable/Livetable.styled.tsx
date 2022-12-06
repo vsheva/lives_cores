@@ -1,9 +1,7 @@
-import { Box, Paper as MuiPaper } from "@mui/material";
-import styled from "styled-components";
+import { Box, Paper as MuiPaper } from '@mui/material';
+import styled from 'styled-components';
 
-export const Paper = styled((props) => (
-  <MuiPaper component="section" {...props} />
-))``;
+export const Paper = styled(props => <MuiPaper component="section" {...props} />)``;
 
 export const FiltersGroup = styled(Box)`
   display: flex;

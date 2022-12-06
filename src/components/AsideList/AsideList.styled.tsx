@@ -1,9 +1,7 @@
-import { Box, Typography } from "@mui/material";
-import styled from "styled-components";
+import { Box, Typography } from '@mui/material';
+import styled from 'styled-components';
 
-export const Title = styled((props) => (
-  <Typography variant="overline" {...props} />
-))`
+export const Title = styled(props => <Typography variant="overline" {...props} />)`
   font-size: 0.9rem;
   font-weight: 600;
   margin-left: ${({ theme }) => theme.spacing(1)};

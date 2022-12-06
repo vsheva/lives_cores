@@ -1,12 +1,7 @@
-import { KeyboardArrowLeft, KeyboardArrowRight } from "@mui/icons-material";
-import {
-  Box,
-  Button as MuiButton,
-  ButtonProps,
-  Popover as MuiPopover,
-} from "@mui/material";
-import styled, { css } from "styled-components";
-import theme from "@theme";
+import { KeyboardArrowLeft, KeyboardArrowRight } from '@mui/icons-material';
+import { Box, Button as MuiButton, ButtonProps, Popover as MuiPopover } from '@mui/material';
+import styled, { css } from 'styled-components';
+import theme from '@theme';
 
 export const Picker = styled(Box)`
   display: flex;
@@ -16,7 +11,7 @@ export const Picker = styled(Box)`
   overflow: hidden;
 `;
 
-const Button = styled((props) => <MuiButton color="inherit" {...props} />)`
+const Button = styled(props => <MuiButton color="inherit" {...props} />)`
   border-radius: 0;
   padding: 0;
   height: 100%;
@@ -24,8 +19,8 @@ const Button = styled((props) => <MuiButton color="inherit" {...props} />)`
 `;
 
 export const ArrowButton = styled(Button)<{ disabled: boolean }>`
-  visibility: ${({ disabled }) => (disabled ? "hidden" : "visible")};
-  pointer-events: ${({ disabled }) => (disabled ? "none" : "all")};
+  visibility: ${({ disabled }) => (disabled ? 'hidden' : 'visible')};
+  pointer-events: ${({ disabled }) => (disabled ? 'none' : 'all')};
   padding: ${({ theme }) => theme.spacing(0, 0.7)};
 `;
 
@@ -51,15 +46,15 @@ export const RightArrowIcon = styled(KeyboardArrowRight)`
   ${arrowButtonStyles}
 `;
 
-export const Popover = styled((props) => (
+export const Popover = styled(props => (
   <MuiPopover
     anchorOrigin={{
-      vertical: "bottom",
-      horizontal: "center",
+      vertical: 'bottom',
+      horizontal: 'center',
     }}
     transformOrigin={{
-      vertical: "top",
-      horizontal: "center",
+      vertical: 'top',
+      horizontal: 'center',
     }}
     PaperProps={{
       sx: {
@@ -79,16 +74,14 @@ export const WeekDays = styled(Box)`
 
 type WeekDayButtonProps = { active?: boolean };
 
-export const WeekDayButton = styled(
-  ({ active, ...props }: ButtonProps & WeekDayButtonProps) => (
-    <MuiButton
-      color={active ? "primary" : "inherit"}
-      variant={active ? "contained" : "text"}
-      {...props}
-    />
-  )
-)<WeekDayButtonProps>`
+export const WeekDayButton = styled(({ active, ...props }: ButtonProps & WeekDayButtonProps) => (
+  <MuiButton
+    color={active ? 'primary' : 'inherit'}
+    variant={active ? 'contained' : 'text'}
+    {...props}
+  />
+))<WeekDayButtonProps>`
   flex: ${({ theme }) => theme.spacing(1)};
   padding: 4px 24px;
-  font-weight: ${(props) => (props.active ? 600 : 400)};
+  font-weight: ${props => (props.active ? 600 : 400)};
 `;

@@ -1,21 +1,21 @@
-import { useMemo } from "react";
-import { OverridableComponent } from "@mui/material/OverridableComponent";
-import { CalendarMonthOutlined } from "@mui/icons-material";
-import { addDays, isSameDay, subDays } from "date-fns";
-import { BoxTypeMap } from "@mui/material";
+import { useMemo } from 'react';
+import { OverridableComponent } from '@mui/material/OverridableComponent';
+import { CalendarMonthOutlined } from '@mui/icons-material';
+import { addDays, isSameDay, subDays } from 'date-fns';
+import { BoxTypeMap } from '@mui/material';
 
-import { formatDate, generateDatesRange } from "@common/utils/dates";
-import { DATE_FORMAT } from "@common/data/date-picker";
-import usePopover from "@common/hooks/usePopover";
+import { formatDate, generateDatesRange } from '@common/utils/dates';
+import { DATE_FORMAT } from '@common/data/date-picker';
+import usePopover from '@common/hooks/usePopover';
 
-import * as Styled from "./WeekDatePicker.styled";
+import * as Styled from './WeekDatePicker.styled';
 
 type DatePickerProps = {
   date: Date;
   onChange: (newDate: Date) => void;
 };
 
-const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = ({
+const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, 'div'>> = ({
   date,
   onChange,
   ...props
@@ -25,11 +25,7 @@ const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = ({
   const currentDate = new Date();
 
   const weekDates = useMemo(() => {
-    return generateDatesRange(
-      subDays(currentDate, 7),
-      addDays(currentDate, 8),
-      "days"
-    );
+    return generateDatesRange(subDays(currentDate, 7), addDays(currentDate, 8), 'days');
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -55,7 +51,7 @@ const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = ({
       </Styled.Picker>
       <Styled.Popover open={!!anchor} anchorEl={anchor} onClose={handleClose}>
         <Styled.WeekDays>
-          {weekDates.map((weekDate) => (
+          {weekDates.map(weekDate => (
             <Styled.WeekDayButton
               onClick={() => {
                 onChange(weekDate);
@@ -64,9 +60,7 @@ const DatePicker: OverridableComponent<BoxTypeMap<DatePickerProps, "div">> = ({
               active={isSameDay(weekDate, date)}
               key={+weekDate}
             >
-              {isSameDay(weekDate, currentDate)
-                ? "Сьогодні"
-                : formatDate(weekDate, DATE_FORMAT)}
+              {isSameDay(weekDate, currentDate) ? 'Сьогодні' : formatDate(weekDate, DATE_FORMAT)}
             </Styled.WeekDayButton>
           ))}
         </Styled.WeekDays>

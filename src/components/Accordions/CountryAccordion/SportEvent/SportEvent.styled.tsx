@@ -1,7 +1,7 @@
-import { Typography } from "@mui/material";
-import styled from "styled-components";
+import { Typography } from '@mui/material';
+import styled from 'styled-components';
 
-export const SportEvent = styled((props) => (
+export const SportEvent = styled(props => (
   <Typography variant="subtitle1" component="span" {...props} />
 ))`
   display: flex;

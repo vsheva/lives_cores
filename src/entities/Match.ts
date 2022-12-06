@@ -12,12 +12,11 @@ export type Team = {
 };
 
 export type MatchStatus =
-  | "CANCELLED"
-  | "PLANNED"
-  | "FINISHED"
-  | "FINISHING"
-  | "MOVED"
-  | "BREAK";
+  | 'CANCELLED'
+  | 'FINISHED'
+  | 'FINISHING'
+  | 'MOVED'
+  | 'BREAK';
 
 type Match = {
   id: number;
